@@ -114,7 +114,7 @@ The first step of the replication is to change the path in the STATA master .do 
 
 ![Alt text](image/replication_setup.png)
 
-After having completed this step, the user can replicate the entire data cleaning procedure by running the master file. This entire process takes the raw input files stored in the "Input" folder and stores cleaned datasets in the "Output" folder. Because of this, the user must ensure full write permissions locally. In detail, the process follows 3 steps:
+After having completed this step, the user can replicate the entire data cleaning procedure by running the master file. Running the master file ensures all sub-programs are executed in the correct and intended order. This process takes the raw input files stored in the "Input" folder and stores cleaned datasets in the "Output" folder, to be used for further analysis in Python at the next stage. Because of this, the user must ensure full write permissions locally. In detail, the data cleaning process follows 3 overall steps:
 
 #### 4.1.1 Cleaning Input Data
 
