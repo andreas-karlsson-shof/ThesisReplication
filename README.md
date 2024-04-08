@@ -108,7 +108,9 @@ The following specifications (version) were used for this project:
 
 ## 4. Full Paper Replication [TBU]
 
-### 4.1 Data Cleaning Replication [TBU]
+### 4.1 STATA Data Cleaning Replication [TBU]
+
+The first step of the replication is change the path in the master file for the STATA code, see image below. Change this path to the directory where the entire project is stored. All other folder paths are set relative to this path so make sure it's correctly specified:
 
 ![Alt text](image/replication_setup.png)
 
