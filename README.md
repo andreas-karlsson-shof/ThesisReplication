@@ -110,6 +110,7 @@ The following specifications (version) were used for this project:
 
 ### 4.1 Data Cleaning Replication [TBU]
 
+![Alt text](replication_setup/.png)
 
 
 [**step-by-step description**]
