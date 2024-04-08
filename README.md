@@ -110,9 +110,43 @@ The following specifications (version) were used for this project:
 
 ### 4.1 STATA Data Cleaning Replication [TBU]
 
-The first step of the replication is change the path in the master file for the STATA code, see image below. Change this path to the directory where the entire project is stored. All other folder paths are set relative to this path so make sure it's correctly specified:
+The first step of the replication is to change the path in the STATA master .do file ("Master.do") for the STATA code, see image below. Change this path to the directory where the entire project is stored. All other folder paths are set relative to this path so make sure it's correctly specified. The master file is located in the "Library" folder and all other subfolders are located in the "Library/Code" folder. 
 
 ![Alt text](image/replication_setup.png)
+
+After having completed this step, the user can replicate the entire data cleaning procedure by running the master file. This entire process takes the raw input files stored in the "Input" folder and stores cleaned datasets in the "Output" folder. Because of this, the user must ensure full write permissions locally. In detail, the process follows 3 steps:
+
+#### 4.1.1 Cleaning Input Data
+
+All programs located in the "FCC1_Company_List" folder are related to the importation and cleaning of the underlying firm-level accounting and market data.
+
+- **FCC1_1**: Imports additional Refinitiv Eikon firm data that was omitted by the author in the first data downloading process
+- **FCC1_2**: Imports and cleans FX variables
+- **FCC1_3**: Imports and cleans risk-free rates
+- **FCC1_4**: Imports and cleans gross profit for all firms
+- **FCC1_5**: Imports and cleans dividend yield for all firms
+- **FCC1_6**: Imports and cleans accounting and market data for delisted firms
+- **FCC1_7**: Imports and cleans shareholder's equity for all firms
+- **FCC1_8**: Consolidates all firm-level accounting data for all firms
+- **FCC1_9**: Consolidates all firm-level accounting and market data for all firms
+
+*Detailed descriptions of the code is left to in-program comments*
+
+#### 4.1.2 Creating Firm Characteristics [TBU]
+
+- **FCC2_1**: [brief description]
+- **FCC2_2**: [brief description]
+- **FCC2_3**: [brief description]
+- **FCC2_4**: [brief description]
+- **FCC2_5**: [brief description]
+- **FCC2_6**: [brief description]
+- **FCC2_7**: [brief description]
+- **FCC2_8**: [brief description]
+- **FCC2_9**: [brief description]
+
+#### 4.1.3 Cleaning and Creating Bond Characteristics [TBU]
+
+
 
 [**step-by-step description**]
 
