@@ -74,6 +74,7 @@ The following specifications (version) were used for this project:
 - import_ipynb (0.1.4)
 - Tensorflow & Keras (2.14.0)
 - seaborn (0.12.2)
+- [need stuff for the plot_model]
 
 *NOTE: if a package is not installed on the computer, you need to install the module first*. 
 
