@@ -123,6 +123,7 @@ After having completed this step, the user can replicate the entire data cleanin
 
 All programs located in the "FCC1_Company_List" folder are related to the importation and cleaning of the underlying firm-level accounting and market data.
 
+- **FCC1_0**: Runs all .do files in the folder "FCC1_Company_List"
 - **FCC1_1**: Imports additional Refinitiv Eikon firm data that was omitted by the author in the first data downloading process
 - **FCC1_2**: Imports and cleans FX variables
 - **FCC1_3**: Imports and cleans risk-free rates
@@ -137,15 +138,14 @@ All programs located in the "FCC1_Company_List" folder are related to the import
 
 #### 4.1.2 Creating Firm Characteristics [TBU]
 
+All programs located in the "FCC2_Create_Firm_Chars" folder are related to building the information set of firm characteristics $I_{t,i}$ and the macroeconomic information set relating to the firm characteristics $I_t$
+
+- **FCC2_0**: Runs all .do files in the folder "FCC1_Company_List"
 - **FCC2_1**: [brief description]
 - **FCC2_2**: [brief description]
 - **FCC2_3**: [brief description]
 - **FCC2_4**: [brief description]
 - **FCC2_5**: [brief description]
-- **FCC2_6**: [brief description]
-- **FCC2_7**: [brief description]
-- **FCC2_8**: [brief description]
-- **FCC2_9**: [brief description]
 
 #### 4.1.3 Cleaning and Creating Bond Characteristics [TBU]
 
