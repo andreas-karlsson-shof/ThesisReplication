@@ -350,6 +350,8 @@ The code has [**insert number of sections in python code here**] sections of cod
 - **Section 36: Characteristic Pricing by EN most important characteristics**:
     - (36.1) Pre-format LaTeX table
     - (36.2) Export pricing table for most important characteristically managed portfolios (according to EN)
+- **Section 37: Stocks per week plot**:
+    - (37.0) Plot the number of stocks in the sample by week
 
 
 
@@ -420,7 +422,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A13**  | **(a), (b), (c)**: AJ_Disjoint_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Disjoint_GAN_ST_BV_Bond_r12_3_heatmap_vRep.pdf, AJ_Disjoint_GAN_Lturnover_Resid_Var_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_Disjoint_GAN_ST_BV_LT_Kurt_heatmap_vRep.pdf, AJ_Disjoint_GAN_SUV_Resid_Var_heatmap_vRep.pdf, AJ_Disjoint_GAN_Bond_r12_3_LT_Kurt_heatmap_vrep.pdf |              |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
-| **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf |              |
+| **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf | 37 and [add numbonds]           |
 | **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf | 8.5 [add AJ-GAN sec.]           |
 | **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf |              |
 | **Figure A19**  |  **Panel A**: Train_AJ_Phi_Phi_decomp_iters.pdf <br>  **Panel B**: Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C**: Test_AJ_Phi_Phi_decomp_iters.pdf |              |
