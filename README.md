@@ -258,7 +258,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A8**   | (**Non-empirical output**) Created using LaTeX           |              |
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
 | **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
-| **Table A11**  | (**Non-empirical output**) Created using LaTeX           |              |
+| **Table A11**  | (**Non-empirical output**) Created using LaTeX           |  6           |
 | **Table A12**  | See validation sections of code (python code sections 4.6 and 6) for empirical results of validation procedure, created using LaTeX |              |
 | **Table A13**  | EN_ensemble_tab.tex                                      |              |
 | **Table A14**  | See validation sections of code (python code section 10) for empirical results of validation procedure, created using LaTeX |              |
@@ -301,7 +301,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
 | **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf |              |
-| **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf |              |
+| **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf | 8.5 [add AJ-GAN sec.]           |
 | **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf |              |
 | **Figure A19**  |  **Panel A**: Train_AJ_Phi_Phi_decomp_iters.pdf <br>  **Panel B**: Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C**: Test_AJ_Phi_Phi_decomp_iters.pdf |              |
 | **Figure A20**  |  **Panel A** (left to right): Train_AJ_GAN_iters_Correlation.pdf, Train_AJ_Phi_Phi_decomp_iters.pdf <br> Valid_AJ_GAN_iters_Correlation.pdf, Valid_AJ_Phi_Phi_decomp_iters.pdf **Panel B** (left to right):  <br> **Panel C** (left to right): Test_AJ_GAN_iters_Correlation.pdf, Test_AJ_Phi_Phi_decomp_iters.pdf |              |
@@ -312,7 +312,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A25**  | SR_HyperParams_v3.pdf                                 |              |
 | **Figure A26**  |  **Panel A**: Coef_by_alpha_v2.pdf <br> **Panel B**: Coef_by_lambda_v2.pdf |              |
 | **Figure A27**  |  Xi_valid_iters_v3.pdf                                |              |
-| **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf |              |
+| **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf | 11.2 and [add AJ-Beta sec] |
 | **Figure A29**  |  **Panel A** (left to right): Train_AJ_Phi_Beta_Iters.pdf, Train_AJ_Disjoint_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_AJ_Phi_Beta_Iters.pdf, Valid_AJ_Disjoint_Beta_Iters.pdf <br> **Panel C** (left to right): Test_AJ_Phi_Beta_Iters.pdf, Test_AJ_Disjoint_Beta_Iters.pdf |              |
 
 ### 5.3 Algorithm Outputs
