@@ -164,6 +164,40 @@ All programs located in the "FCC3_Bond_Chars" folder are related to building the
 
 *Detailed descriptions of the code is left to in-program comments*
 
+### 4.2 Python Machine Learning Replication
+
+The Python code is stored in a notebook format (.ipynb) for easier user understanding. In particular, text and LaTeX code is rendered within the notebook to give detailed descriptions of what goes on within each section of the code. I reference to these specific descriptions for users looking for in depth explanations of blocks of code. Furthermore, there are also within-code comments for code-line specific explanations. The code is combined into a single file, and is to be run from top to bottom. Naturally, this has to be done *after* the STATA cleaning procedure has been completed as the Python code refers to outputs from the data cleaning procedure. After the user has ensured that the machine is compatible with all the package-specifications in section 2.3, the user needs to again set the project directory (PROJ_DIR) in the Python code. This needs to be the same project directory as specified in the STATA master file. 
+
+
+
+
+
+
+The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [**step-by-step description**]
 
 To replicate the tables and figures used in the assignment. The aforementioned modules needs to be used. Furthermore, the two underlying data files: 
