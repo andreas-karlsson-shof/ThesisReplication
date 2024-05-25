@@ -192,8 +192,13 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table I**    | main_table_v240425.tex                                   |
 | **Table II**   | beta_pricing_vRep.tex                                    |
 | **Table III**  | AJ_beta_pricing_vRep.tex                                 |
-| **Table IV**   |                                                          |
-| **Table V**    |                                                          |
+| **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      |
+| **Table V**    | CharsDecileTable_GAN_vRep.tex                            |
+| **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 |
+| **Table VII**  |                                                          |
+| **Table VIII** |                                                          |
+| **Table IX**   |                                                          |
+| **Table X**    |                                                          |
 | **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX |
 | **Table A8**   | (**Non-empirical output**) Created using LaTeX           |
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |
@@ -212,8 +217,8 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf |
 | **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_v2.pdf |
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|
-| **Figure VIII** |                                                       |
-| **Figure IX**   |                                                       |
+| **Figure VIII** | **Panel A**: VI_AJ_Disjoint_permanent.pdf <br> **Panel B**: VI_AJ_Disjoint_transitory.pdf <br> **Panel C**: VI_AJ_Disjoint_Full.pdf |
+| **Figure IX**   | **(a), (b), (c)**: EN_SUV_interact_Lturnover_v2.pdf, EN_SUV_interact_CF_v2.pdf, EN_SUV_interact_LME_v2.pdf <br> **(d), (e), (f)**: EN_Lturnover_interact_CF_v2.pdf, EN_Lturnover_interact_LME_v2.pdf, EN_CF_interact_LME_v2.pdf |
 | **Figure X**    |                                                       |
 | **Figure XI**   |                                                       |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
