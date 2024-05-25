@@ -211,7 +211,7 @@ The code has [**insert number of sections in python code here**] sections of cod
 - **Section 8: Conditional Fit of GAN Model**:
     - (8.1) Create auxiliary objects for the conditional fit
     - (8.2) Run final conditional fit of GAN model
-    - (8.3) Produce final GAN PK weights estimates $\omega_t^{GAN}$
+    - (8.3) Ensemble learning on GAN PK weights estimates $\omega_t^{GAN}$
     - (8.4) Produce final GAN Sharpe ratio estimates by subsample
     - (8.5) Produce GAN performance by epoch plots
 - **Section 9: GAN-Beta Network Model Architecture**:
@@ -226,13 +226,23 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (9.9) Create GAN-Beta in-training callbacks
     - (9.10) Create GAN-Beta in-training metrics
     - (9.11) Create GAN-Beta in-training loss function
-    - (9.12) Create additional GAN-Beta in-training TS-R$^2$ metric
+    - (9.12) Create additional GAN-Beta in-training $TS-R^2$ metric
 - **Section 10: GAN Beta Network Validation Procedure**
     - (10.1) Fit 16 GAN-Beta networks for ensemble procedure
     - (10.2) Extract validated GAN-Beta model
 - **Section 11: GAN-Beta Network Ensemble Fit**:
     - (11.1) Fit GAN-Beta Ensemble (5 validated models)
-    - (11.2) Plot ensemble GAN-Beta TS-R$^2$ performance by epoch 
+    - (11.2) Plot ensemble GAN-Beta $TS-R^2$ performance by epoch
+- **Section 12: Create Final GAN Explained Variation Metrics**:
+    - (12.1) Ensemble learning on GAN-Beta predictions
+    - (12.2) GAN-Beta final residualization procedure
+    - (12.3) Calculate final GAN TS-R2 metric
+    - (12.4) Calculate final GAN CS-R2 metric
+- **Section 13: Beta Scalings and GAN Predictive Power**:
+    - (13.1) Scaling Betas according to $\beta_t'\omega_t = 1$
+    - (13.2) Auxiliary scaling functions for sorting stocks into deciles by loadings
+    - (13.3) Decile sorting and beta representation (SML) functions
+    - (13.4) Create decile sorting plots and beta representation plots
 
 ## 5. Where to find paper outputs
 
@@ -277,7 +287,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |               |
-| **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf | 12.4-12.5,              |
+| **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf | 13.4-14.5, and [add FFN and EN secs] |
 | **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_v2.pdf |              |
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|              |
 | **Figure VIII** | **Panel A**: VI_AJ_Disjoint_permanent.pdf <br> **Panel B**: VI_AJ_Disjoint_transitory.pdf <br> **Panel C**: VI_AJ_Disjoint_Full.pdf |              |
@@ -286,7 +296,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure XI**   | **(a), (b), (c)**: FFN_AT_A2ME_heatmap_v2.pdf, FFN_AT_LME_heatmap_v2.pdf, FFN_AT_Q_heatmap_v2.pdf <br> **(d), (e), (f)**: FFN_A2ME_LME_heatmap_v2.pdf, FFN_A2ME_Q_heatmap_v2.pdf, FFN_LME_Q_heatmap_v2.pdf |              |
 | **Figure XII**  | **(a), (b), (c)**: AJ_Phi_GAN_PROF_NOA_heatmap_vRep.pdf, AJ_Phi_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Phi_GAN_PROF_OA_heatmap_vRep.pdf <br>  **(d), (e), (f)**: AJ_Phi_GAN_Lturnover_E2P_heatmap_vRep.pdf, AJ_Phi_GAN_NOA_OA_heatmap_vRep.pdf, AJ_Phi_GAN_SUV_E2P_heatmap_vRep.pdf |              |
 | **Figure A1**   | **(a), (b), (c)**: AJ_PK_comps_train_vRep.pdf, AJ_PK_comps_valid_vRep.pdf, AJ_PK_comps_test_vRep.pdf |              |
-| **Figure A2**   | GAN_Beta_spread.pdf                                   | 12.4-12.5    |
+| **Figure A2**   | GAN_Beta_spread.pdf                                   | 13.3-13.4    |
 | **Figure A3**   | FFN_Beta_spread_v240327.pdf                           |              |
 | **Figure A4**   | EN_Beta_spread.pdf                                    |              |
 | **Figure A5**   | **Model 1-5**: HS_vReplication_1.pdf, HS_vReplication_2.pdf, HS_vReplication_3.pdf, HS_vReplication_4.pdf, HS_vReplication_5.pdf           |              |
