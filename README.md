@@ -190,7 +190,7 @@ This section describes which files produced by the Python code corresponds to wh
 ### 5.1 Table Outputs
 
 | Name       | Description        |
-|:-----------|:------------------:|
+|:-----------|:-------------------|
 | Table I    |                    |
 | Table II   |                    |
 | Table III  |                    |
@@ -204,7 +204,7 @@ This section describes which files produced by the Python code corresponds to wh
 ### 5.2 Figure Outputs
 
 | Name       | Description                                       |
-|:-----------|:-------------------------------------------------:|
+|:-----------|:--------------------------------------------------|
 | Figure I   | (Non-empirical output) Created using Powerpoint   |
 | Figure II  | (Non-empirical output) Created using Powerpoint   |
 | Figure III | (Non-empirical output) Created using Powerpoint   |
@@ -219,7 +219,7 @@ This section describes which files produced by the Python code corresponds to wh
 ### 5.3 Algorithm Outputs
 
 | Name           | Description                                |
-|:---------------|:------------------------------------------:|
+|:---------------|:-------------------------------------------|
 | Algorithm 1    | (Non-empirical output) Created using LaTeX |
 | Algorithm 2    | (Non-empirical output) Created using LaTeX |
 
