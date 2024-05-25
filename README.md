@@ -206,14 +206,14 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |
 | **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |
 | **Table A11**  | (**Non-empirical output**) Created using LaTeX           |
-| **Table A12**  |                                                          |
-| **Table A13**  |                                                          |
-| **Table A14**  |                                                          |
-| **Table A15**  |                                                          |
-| **Table A16**  |                                                          |
-| **Table A17**  |                                                          |
-| **Table A18**  |                                                          |
-| **Table A19**  |                                                          |
+| **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX |
+| **Table A13**  | EN_ensemble_tab.tex                                      |
+| **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX |
+| **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX |
+| **Table A16**  | FF3_beta_pricing_vRep.tex                                |
+| **Table A17**  | FF5_beta_pricing_vRep.tex                                |
+| **Table A18**  | FF3_AJ_beta_pricing_vRep.tex                             |
+| **Table A19**  | FF5_AJ_beta_pricing_vRep.tex                             |
 | **Table A20**  | (**Non-empirical output**) Created using LaTeX           |
 
 ### 5.2 Figure Outputs
@@ -248,19 +248,19 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 | **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf |
-| **Figure A17**  |                                                       |
-| **Figure A18**  |                                                       |
-| **Figure A19**  |                                                       |
-| **Figure A20**  |                                                       |
-| **Figure A21**  |                                                       |
-| **Figure A22**  |                                                       |
-| **Figure A23**  |                                                       |
-| **Figure A24**  |                                                       |
-| **Figure A25**  |                                                       |
-| **Figure A26**  |                                                       |
-| **Figure A27**  |                                                       |
-| **Figure A28**  |                                                       |
-| **Figure A29**  |                                                       |
+| **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf |
+| **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf |
+| **Figure A19**  |  **Panel A**: Train_AJ_Phi_Phi_decomp_iters.pdf <br>  **Panel B**: Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C**: Test_AJ_Phi_Phi_decomp_iters.pdf |
+| **Figure A20**  |  **Panel A** (left to right): Train_AJ_GAN_iters_Correlation.pdf, Train_AJ_Phi_Phi_decomp_iters.pdf <br> Valid_AJ_GAN_iters_Correlation.pdf, Valid_AJ_Phi_Phi_decomp_iters.pdf **Panel B** (left to right):  <br> **Panel C** (left to right): Test_AJ_GAN_iters_Correlation.pdf, Test_AJ_Phi_Phi_decomp_iters.pdf |
+| **Figure A21**  |  **Panel A** (left to right): /AJ_Phi_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Phi_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right):  /AJ_Phi_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |
+| **Figure A22**  |  **Panel A** (left to right): /AJ_Disjoint_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ_Disjoint_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, t/AJ_Disjoint_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |
+| **Figure A23**  |  **Panel A** (left to right): /AJ/Train_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ/Valid_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ/Test_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Test_AJ_Phi_Phi_decomp_iters.pdf |
+| **Figure A24**  |  **Panel A** Train_FFN_iters_ensemble_v240327.pdf <br> **Panel B** Valid_FFN_iters_ensemble_v240327.pdf <br> **Panel C** <br> Test_FFN_iters_ensemble_v240327.pdf |
+| **Figure A25**  | SR_HyperParams_v3.pdf                                 |
+| **Figure A26**  |  **Panel A**: Coef_by_alpha_v2.pdf <br> **Panel B**: Coef_by_lambda_v2.pdf |
+| **Figure A27**  |  Xi_valid_iters_v3.pdf                                |
+| **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf |
+| **Figure A29**  |  **Panel A** (left to right): Train_AJ_Phi_Beta_Iters.pdf, Train_AJ_Disjoint_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_AJ_Phi_Beta_Iters.pdf, Valid_AJ_Disjoint_Beta_Iters.pdf <br> **Panel C** (left to right): Test_AJ_Phi_Beta_Iters.pdf, Test_AJ_Disjoint_Beta_Iters.pdf |
 
 ### 5.3 Algorithm Outputs
 
