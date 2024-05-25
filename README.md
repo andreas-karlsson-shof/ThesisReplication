@@ -170,10 +170,7 @@ The Python code is stored in a notebook format (.ipynb) for easier user understa
 
 ![Alt text](image/replication_setup_python.PNG)
 
-
-
-
-
+After the user changes the project directory path to the correct local path, run the code from top to bottom to replicate the results. All paper outputs will be stored in the "Output/Results" folder locally. Therefore, full replicability also requires write permissions from local. 
 
 The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks.
 
@@ -233,16 +230,11 @@ Finally, to implement the S2 model, *reset the kernel* and simply uncomment the 
 
 <img width="299" alt="s2_spec" src="https://user-images.githubusercontent.com/123584534/226126010-f3a4b5c9-827c-4c96-a8af-aaa81f294d17.png">
 
-## 5. Where to find outputs included in the paper? [TBU]
+## 5. Code outputs to paper outputs
 
-Simply, for Figure 1, Figure 2, and the Appendix figures (Figure 5 and Figure 6), look at the output in sections 5, 7, and 11, respectively.
+This section describes which files produced by the Python code corresponds to which output in the final paper. *All* output figures are stored as .pdf files in subfolders within the "Output/Results" folder. Likewise, *all* output tables are stored as LaTeX files (.tex) in subfolders within the "Output/Results" folder. Therefore, I am detailing here the filenames of each .pdf and .tex files that correspond to each Figure and Table in the paper here. The user can then find where in the code this file is created, and the procedure going into producing these outputs.
 
-In the only cell in *section 8: Predictive OLS Model*, the OLS output in Table 2 for the active model is outputted, as well as its respective panel that is in Figure 3. Therefore, to get every number in the OLS portion of Table 2, you need to run the notebook for each model and take note of the output for each active model. Similarly, to get every panel of Figure 3, you need to save the figure output for each active model.
 
-The rest of Table 2, the part that pertains to the VAR(1) model is contained under the following section, *section 9: VAR(1) Model*. In the first cell in that section you will find the output to the VAR(1) portion of Table 2. Again, the output pertains only to the active model, and to replicate the results for all models used, you will have to run the notebook for each model and take note of the output for each active model. 
 
-The last cell in *section 9: VAR(1) Model* also contains the outputs to Figure 4 in the paper. The output contains the time-series decomposition of equity yields at all maturities between 1-10 years. In Figure 4, we only include maturities 2, 5, and 10 for brevity. To find these figures, simply save the 2nd, 5th, and 10th figure in the output. Again, the output pertains only to the active model, and to replicate the figures for all models used, you will have to run the notebook for each model and take note of the output for each active model. 
-
-Finally, to replicate Table 3 from the paper, consider *section 10: Variance Decomposition*. There are 2 cells of code in the section and the second one outputs the decomposition for the active model. Again, the output pertains only to the active model, and to replicate the output for all models, you will have to run the notebook for each model and take note of the output for each active model. 
 
 ***Fin!***
