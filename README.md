@@ -243,6 +243,19 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (13.2) Auxiliary scaling functions for sorting stocks into deciles by loadings
     - (13.3) Decile sorting and beta representation (SML) functions
     - (13.4) Create decile sorting plots and beta representation plots
+- **Section 14: GAN Variable Importance Analysis**:
+    - (14.1) Estimate out-of-sample VI within GAN ensemble and aggregate
+    - (14.2) Plot GAN saliency analysis plot
+- **Section 15: GAN Linear Interaction Analysis**:
+    - (15.1) Extract FFN part of PK network for plotting purposes
+    - (15.2) Create auxiliary plotting functions and objects
+    - (15.3) Plot linear interation plot for GAN model
+- **Section 16: GAN Heatmap Plots**:
+    - (16.1) Auxiliary functions and inputs to heatmap
+    - (16.2) Create Heatmap plotting function and plot heatmaps
+- **Section 17: Fitted GAN Macroeconomic Hidden States**:
+    - (17.1) Extract and format hidden state variables
+    - (17.2) Plot GAN hidden states as predicted by LSTM model (within PK network)
 
 ## 5. Where to find paper outputs
 
@@ -288,24 +301,24 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |               |
 | **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf | 13.4-14.5, and [add FFN and EN secs] |
-| **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_v2.pdf |              |
+| **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_v2.pdf | 14.2 and [add FFN and EN secs]             |
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|              |
 | **Figure VIII** | **Panel A**: VI_AJ_Disjoint_permanent.pdf <br> **Panel B**: VI_AJ_Disjoint_transitory.pdf <br> **Panel C**: VI_AJ_Disjoint_Full.pdf |              |
 | **Figure IX**   | **(a), (b), (c)**: EN_SUV_interact_Lturnover_v2.pdf, EN_SUV_interact_CF_v2.pdf, EN_SUV_interact_LME_v2.pdf <br> **(d), (e), (f)**: EN_Lturnover_interact_CF_v2.pdf, EN_Lturnover_interact_LME_v2.pdf, EN_CF_interact_LME_v2.pdf |              |
-| **Figure X**    | **(a), (b), (c)**: GAN_PM_interact_SUV_vRep.pdf, GAN_PM_interact_NOA_vRep.pdf, GAN_PM_interact_AC_vRep.pdf <br> **(d), (e), (f)**: GAN_SUV_interact_NOA_vRep.pdf, GAN_SUV_interact_AC_vRep.pdf, GAN_NOA_interact_AC_vRep.pdf    |              |
+| **Figure X**    | **(a), (b), (c)**: GAN_PM_interact_SUV_vRep.pdf, GAN_PM_interact_NOA_vRep.pdf, GAN_PM_interact_AC_vRep.pdf <br> **(d), (e), (f)**: GAN_SUV_interact_NOA_vRep.pdf, GAN_SUV_interact_AC_vRep.pdf, GAN_NOA_interact_AC_vRep.pdf    | 15             |
 | **Figure XI**   | **(a), (b), (c)**: FFN_AT_A2ME_heatmap_v2.pdf, FFN_AT_LME_heatmap_v2.pdf, FFN_AT_Q_heatmap_v2.pdf <br> **(d), (e), (f)**: FFN_A2ME_LME_heatmap_v2.pdf, FFN_A2ME_Q_heatmap_v2.pdf, FFN_LME_Q_heatmap_v2.pdf |              |
 | **Figure XII**  | **(a), (b), (c)**: AJ_Phi_GAN_PROF_NOA_heatmap_vRep.pdf, AJ_Phi_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Phi_GAN_PROF_OA_heatmap_vRep.pdf <br>  **(d), (e), (f)**: AJ_Phi_GAN_Lturnover_E2P_heatmap_vRep.pdf, AJ_Phi_GAN_NOA_OA_heatmap_vRep.pdf, AJ_Phi_GAN_SUV_E2P_heatmap_vRep.pdf |              |
 | **Figure A1**   | **(a), (b), (c)**: AJ_PK_comps_train_vRep.pdf, AJ_PK_comps_valid_vRep.pdf, AJ_PK_comps_test_vRep.pdf |              |
 | **Figure A2**   | GAN_Beta_spread.pdf                                   | 13.3-13.4    |
 | **Figure A3**   | FFN_Beta_spread_v240327.pdf                           |              |
 | **Figure A4**   | EN_Beta_spread.pdf                                    |              |
-| **Figure A5**   | **Model 1-5**: HS_vReplication_1.pdf, HS_vReplication_2.pdf, HS_vReplication_3.pdf, HS_vReplication_4.pdf, HS_vReplication_5.pdf           |              |
+| **Figure A5**   | **Model 1-5**: HS_vReplication_1.pdf, HS_vReplication_2.pdf, HS_vReplication_3.pdf, HS_vReplication_4.pdf, HS_vReplication_5.pdf           | 17             |
 | **Figure A6**   | **Model 1-5**: AJ_HS_1_vLoaded.pdf, AJ_HS_2_vLoaded.pdf, AJ_HS_3_vLoaded.pdf, AJ_HS_4_vLoaded.pdf, AJ_HS_5_vLoaded.pdf                     |               |
 | **Figure A7**   | **Model 1-5**: AJ_Phi_HS_1_vLoaded.pdf, AJ_Phi_HS_2_vLoaded.pdf, AJ_Phi_HS_3_vLoaded.pdf, AJ_Phi_HS_4_vLoaded.pdf, AJ_Phi_HS_5_vLoaded.pdf |               |
 | **Figure A8**   | **Model 1-5**: AJ_Disjoint_HS_1_vLoaded.pdf, AJ_Disjoint_HS_2_vLoaded.pdf, AJ_Disjoint_HS_3_vLoaded.pdf, AJ_Disjoint_HS_4_vLoaded.pdf, AJ_Disjoint_HS_5_vLoaded.pdf |               |
 | **Figure A9**   | **(a), (b), (c)**: FFN_AT_interact_A2ME.pdf, FFN_AT_interact_LME.pdf, FFN_AT_interact_Q.pdf <br>  **(d), (e), (f)**: FFN_A2ME_interact_LME.pdf, FFN_A2ME_interact_Q.pdf, FFN_LME_interact_Q.pdf |              |
 | **Figure A10**  | **(a), (b), (c)**: SUV_Lturnover_heatmap_v2.pdf, SUV_CF_heatmap_v2.pdf, SUV_LME_heatmap_v2.pdf <br> **(d), (e), (f)**: Lturnover_CF_heatmap_v2.pdf, /Lturnover_LME_heatmap_v2.pdf, CF_LME_heatmap_v2.pdf |              |
-| **Figure A11**  | **(a), (b), (c)**: GAN_PM_SUV_heatmap_vReplication.pdf, GAN_PM_NOA_heatmap_vReplication.pdf, GAN_PM_AC_heatmap_vReplication.pdf <br> **(d), (e), (f)**: GAN_SUV_NOA_heatmap_vReplication.pdf, GAN_SUV_AC_heatmap_vReplication.pdf, GAN_NOA_AC_heatmap_vReplication.pdf |              |
+| **Figure A11**  | **(a), (b), (c)**: GAN_PM_SUV_heatmap_vReplication.pdf, GAN_PM_NOA_heatmap_vReplication.pdf, GAN_PM_AC_heatmap_vReplication.pdf <br> **(d), (e), (f)**: GAN_SUV_NOA_heatmap_vReplication.pdf, GAN_SUV_AC_heatmap_vReplication.pdf, GAN_NOA_AC_heatmap_vReplication.pdf | 16             |
 | **Figure A12**  | **(a), (b), (c)**: AJ_GAN_r12_2_LME_heatmap_vRep.pdf, AJ_GAN_LME_SUV_heatmap_vRep.pdf, AJ_GAN_r12_2_ATO_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_GAN_LME_Lturnover_heatmap_vRep.pdf, AJ_GAN_LME_ATO_heatmap_vRep.pdf, AJ_GAN_SUV_Lturnover_heatmap_vRep.pdf |              |
 | **Figure A13**  | **(a), (b), (c)**: AJ_Disjoint_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Disjoint_GAN_ST_BV_Bond_r12_3_heatmap_vRep.pdf, AJ_Disjoint_GAN_Lturnover_Resid_Var_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_Disjoint_GAN_ST_BV_LT_Kurt_heatmap_vRep.pdf, AJ_Disjoint_GAN_SUV_Resid_Var_heatmap_vRep.pdf, AJ_Disjoint_GAN_Bond_r12_3_LT_Kurt_heatmap_vrep.pdf |              |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
