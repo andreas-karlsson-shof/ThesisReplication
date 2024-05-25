@@ -302,7 +302,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
 | **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
 | **Table A11**  | (**Non-empirical output**) Created using LaTeX           |              |
-| **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 4.6 and 6             |
+| **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 6, 18.3-18.4, 25.4 |
 | **Table A13**  | EN_ensemble_tab_vRep.tex                                 | 18.5 - 18.6  |
 | **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10             |
 | **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX |
@@ -351,7 +351,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A21**  |  **Panel A** (left to right): /AJ_Phi_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Phi_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right):  /AJ_Phi_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
 | **Figure A22**  |  **Panel A** (left to right): /AJ_Disjoint_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ_Disjoint_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, t/AJ_Disjoint_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
 | **Figure A23**  |  **Panel A** (left to right): /AJ/Train_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ/Valid_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ/Test_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
-| **Figure A24**  |  **Panel A** Train_FFN_iters_ensemble_v240327.pdf <br> **Panel B** Valid_FFN_iters_ensemble_v240327.pdf <br> **Panel C** <br> Test_FFN_iters_ensemble_v240327.pdf |              |
+| **Figure A24**  |  **Panel A** Train_FFN_iters_ensemble_vReplication.pdf <br> **Panel B** Valid_FFN_iters_ensemble_vReplication.pdf <br> **Panel C** <br> Test_FFN_iters_ensemble_vReplication.pdf | 25.6            |
 | **Figure A25**  | SR_HyperParams_vReplication.pdf  | 18.3-18.4             |
 | **Figure A26**  |  **Panel A**: Coef_by_alpha_vRep.pdf <br> **Panel B**: Coef_by_lambda_vRep.pdf | 18.7           |
 | **Figure A27**  |  Xi_valid_iters_v3.pdf                                |              |
