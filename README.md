@@ -178,11 +178,21 @@ The code has [**insert number of sections in python code here**] sections of cod
 
 This section describes which files produced by the Python code corresponds to which output in the final paper. *All* output figures are stored as .pdf files in subfolders within the "Output/Results" folder. Likewise, *all* output tables are stored as LaTeX files (.tex) in subfolders within the "Output/Results" folder. Therefore, I am detailing here the filenames of each .pdf and .tex files that correspond to each Figure and Table in the paper here. The user can then find where in the code this file is created, and the procedure going into producing these outputs.
 
+### 5.1 Table Outputs
+
 | Name       | Occupation         |
 |:-----------|:------------------:|
-| Table I    | Software Engineer  |
-| Table II   | Data Scientist     |
-| Table III  | Product Manager    |
+| Table I    |                    |
+| Table II   |                    |
+| Table III  |                    |
+
+### 5.2 Figure Outputs
+
+| Name       | Occupation         |
+|:-----------|:------------------:|
+| Figure I   |                    |
+| Figure II  |                    |
+| Figure III |                    |
 
 
 ***Fin!***
