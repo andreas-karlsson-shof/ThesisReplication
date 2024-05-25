@@ -189,7 +189,7 @@ This section describes which files produced by the Python code corresponds to wh
 
 | Name           | Description        |
 |:---------------|:-------------------|
-| **Table I**    |                    |
+| **Table I**    | main_table_v240425.tex                   |
 | **Table II**   |                    |
 | **Table III**  |                    |
 | **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX |
@@ -206,7 +206,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure I**    | (**Non-empirical output**) Created using Powerpoint   |
 | **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |
-| **Figure IV**   |                                                       |
+| **Figure IV**   | **Panel A**: PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. **Panel B**: AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |
 | **Figure V**    |                                                       |
 | **Figure VI**   |                                                       |
 | **Figure VII**  |                                                       |
