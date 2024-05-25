@@ -111,13 +111,13 @@ The following specifications (version) were used for this project:
 
 ## 4. Full Paper Replication [TBU]
 
-### 4.1 STATA Data Cleaning Replication [TBU]
+### 4.1 STATA Data Cleaning Replication
 
 The first step of the replication is to change the path in the STATA master .do file ("Master.do") for the STATA code, see image below. Change this path to the directory where the entire project is stored. All other folder paths are set relative to this path so make sure it's correctly specified. The master file is located in the "Library" folder and all other subfolders are located in the "Library/Code" folder. 
 
 ![Alt text](image/replication_setup.png)
 
-After having completed this step, the user can replicate the entire data cleaning procedure by running the master file. Running the master file ensures all sub-programs are executed in the correct and intended order. This process takes the raw input files stored in the "Input" folder and stores cleaned datasets in the "Output" folder, to be used for further analysis in Python at the next stage. Because of this, the user must ensure full write permissions locally. In detail, the data cleaning process follows 3 overall steps:
+After having completed this step, the user can replicate the entire data cleaning procedure by running the master file. Running the master file ensures all sub-programs are executed in the correct and intended order. This process takes the raw input files stored in the "Input" folder and stores cleaned datasets in the "Output" folder (more specifically, the "Output/Temporary" folder). These output files are to be used for machine learning estimation using Python at the next stage. Because of this, the user must ensure full write permissions locally. In detail, this STATA data cleaning process follows 3 overall steps:
 
 #### 4.1.1 Cleaning Input Data
 
