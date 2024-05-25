@@ -178,7 +178,15 @@ The code has [**insert number of sections in python code here**] sections of cod
 - **Section 2: Python Preliminaries and Packages**:
     - (2.0) Imports required packages for the machine learning estimation.
     - (2.1) Prints versions of packages so user can cross-check compatibility to the required package versions stated in this paper.
-- **Section 3: Import Data**: [TBU]
+- **Section 3: Import Data**:
+    - (3.1) Creates keras mask object (to deal with unbalanced panel) 
+    - (3.2) Imports and winsorizes weekly excess return data $R_{t+1}^{e}$
+    - (3.3) Imports firm characteristics $I_{t,i}$
+    - (3.4) Imports firm macroeconomic dataset $I_t$
+    - (3.5) Creates time variables relating to Train-Valid-Test split
+    - (3.6) Subsample firm characteristics
+    - (3.7) Subsample firm macroeconomic data
+    - (3.8) Garbage disposal (free up application memory)
 - **Section 4: Model Building**: [TBU]
 
 ## 5. Where to find paper outputs
