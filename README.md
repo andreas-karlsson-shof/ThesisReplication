@@ -1,33 +1,29 @@
 # Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning
 
-**Title**: Double Degree Thesis for M.A. in Banking and Finance (MBF) and MSc. in Finance (MFIN)  
-**Institutions**: University of St. Gallen (HSG) and Stockholm School of Economics (SSE)  
+**Title**:               Double Degree Thesis for M.A. in Banking and Finance (MBF) and MSc. in Finance (MFIN)  
+**Institutions**:        University of St. Gallen (HSG) and Stockholm School of Economics (SSE)  
 **Author**:              Andreas Karlsson  
 **Supervisor (SSE)**:    Prof. Gualtiero Azzalini  
 **Supervisor (HSG)**:    Prof. David Preinerstorfer  
 **Co-supervisor (HSG)**: Dr. Zeno Adams  
 
-## Abstract [TBU]
+## README Outline
+
+This README file is separated into 11 sections:
+
+1. Introduction
+2. Preliminaries
+3. Overview of Input Files
+4. Full paper replication
+5. Where to find paper outputs
+
+## 1. Introduction [TBU]
 
 Description of replication files for the thesis "Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning".
 
 [Write intro]
 
-## 1. Notebook Outline [TBU]
 
-Note that the notebook is separated into 11 sections:
-
-1. [Model Specification]
-2. [Preliminaries]
-3. [Data Importation]
-4. [Data Handling]
-5. [Figure 1]
-6. [Finalize Features and Outcomes]
-7. [Figure 2]
-8. [Predictive OLS Model]
-9. [VAR(1) Model]
-10. [Variance Decomposition]
-11. [Appendix Plots]
 
 ## 2. Preliminaries
 
