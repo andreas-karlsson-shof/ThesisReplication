@@ -1,6 +1,6 @@
 # Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning
 
-Double Degree Thesis for M.A. in Banking and Finance (MBF) and MSc. in Finance (MFIN)
+Double Degree Thesis for M.A. in Banking and Finance (MBF) and MSc. in Finance (MFIN) \\
 University of St. Gallen (HSG) and Stockholm School of Economics (SSE)
 Author:              Andreas Karlsson
 Supervisor (SSE):    Prof. Gualtiero Azzalini
