@@ -195,15 +195,25 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      |
 | **Table V**    | CharsDecileTable_GAN_vRep.tex                            |
 | **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 |
-| **Table VII**  |                                                          |
-| **Table VIII** |                                                          |
-| **Table IX**   |                                                          |
-| **Table X**    |                                                          |
+| **Table A1**   |                                                          |
+| **Table A2**   |                                                          |
+| **Table A3**   |                                                          |
+| **Table A4**   |                                                          |
+| **Table A5**   |                                                          |
+| **Table A6**   |                                                          |
 | **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX |
 | **Table A8**   | (**Non-empirical output**) Created using LaTeX           |
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |
 | **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |
 | **Table A11**  | (**Non-empirical output**) Created using LaTeX           |
+| **Table A12**  |                                                          |
+| **Table A13**  |                                                          |
+| **Table A14**  |                                                          |
+| **Table A15**  |                                                          |
+| **Table A16**  |                                                          |
+| **Table A17**  |                                                          |
+| **Table A18**  |                                                          |
+| **Table A19**  |                                                          |
 | **Table A20**  | (**Non-empirical output**) Created using LaTeX           |
 
 ### 5.2 Figure Outputs
@@ -219,15 +229,43 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|
 | **Figure VIII** | **Panel A**: VI_AJ_Disjoint_permanent.pdf <br> **Panel B**: VI_AJ_Disjoint_transitory.pdf <br> **Panel C**: VI_AJ_Disjoint_Full.pdf |
 | **Figure IX**   | **(a), (b), (c)**: EN_SUV_interact_Lturnover_v2.pdf, EN_SUV_interact_CF_v2.pdf, EN_SUV_interact_LME_v2.pdf <br> **(d), (e), (f)**: EN_Lturnover_interact_CF_v2.pdf, EN_Lturnover_interact_LME_v2.pdf, EN_CF_interact_LME_v2.pdf |
-| **Figure X**    |                                                       |
-| **Figure XI**   |                                                       |
+| **Figure X**    | **(a), (b), (c)**: GAN_PM_interact_SUV_vRep.pdf, GAN_PM_interact_NOA_vRep.pdf, GAN_PM_interact_AC_vRep.pdf <br> **(d), (e), (f)**: GAN_SUV_interact_NOA_vRep.pdf, GAN_SUV_interact_AC_vRep.pdf, GAN_NOA_interact_AC_vRep.pdf    |
+| **Figure XI**   | **(a), (b), (c)**: FFN_AT_A2ME_heatmap_v2.pdf, FFN_AT_LME_heatmap_v2.pdf, FFN_AT_Q_heatmap_v2.pdf <br> **(d), (e), (f)**: FFN_A2ME_LME_heatmap_v2.pdf, FFN_A2ME_Q_heatmap_v2.pdf, FFN_LME_Q_heatmap_v2.pdf |
+| **Figure XII**  | **(a), (b), (c)**: AJ_Phi_GAN_PROF_NOA_heatmap_vRep.pdf, AJ_Phi_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Phi_GAN_PROF_OA_heatmap_vRep.pdf <br>  **(d), (e), (f)**: AJ_Phi_GAN_Lturnover_E2P_heatmap_vRep.pdf, AJ_Phi_GAN_NOA_OA_heatmap_vRep.pdf, AJ_Phi_GAN_SUV_E2P_heatmap_vRep.pdf |
+| **Figure A1**   |                                                       |
+| **Figure A2**   |                                                       |
+| **Figure A3**   |                                                       |
+| **Figure A4**   |                                                       |
+| **Figure A5**   |                                                       |
+| **Figure A6**   |                                                       |
+| **Figure A7**   |                                                       |
+| **Figure A8**   |                                                       |
+| **Figure A9**   |                                                       |
+| **Figure A10**  |                                                       |
+| **Figure A11**  |                                                       |
+| **Figure A12**  |                                                       |
+| **Figure A13**  |                                                       |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
+| **Figure A16**  |                                                       |
+| **Figure A17**  |                                                       |
+| **Figure A18**  |                                                       |
+| **Figure A19**  |                                                       |
+| **Figure A20**  |                                                       |
+| **Figure A21**  |                                                       |
+| **Figure A22**  |                                                       |
+| **Figure A23**  |                                                       |
+| **Figure A24**  |                                                       |
+| **Figure A25**  |                                                       |
+| **Figure A26**  |                                                       |
+| **Figure A27**  |                                                       |
+| **Figure A28**  |                                                       |
+| **Figure A29**  |                                                       |
 
 ### 5.3 Algorithm Outputs
 
-| Name               | Description                                |
-|:-------------------|:-------------------------------------------|
+| Name               | Description                                    |
+|:-------------------|:-----------------------------------------------|
 | **Algorithm 1**    | (**Non-empirical output**) Created using LaTeX |
 | **Algorithm 2**    | (**Non-empirical output**) Created using LaTeX |
 
