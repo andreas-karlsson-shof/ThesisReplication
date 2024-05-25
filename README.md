@@ -136,20 +136,33 @@ All programs located in the "FCC1_Company_List" folder are related to the import
 
 *Detailed descriptions of the code is left to in-program comments*
 
-#### 4.1.2 Creating Firm Characteristics [TBU]
+#### 4.1.2 Creating Firm Characteristics
 
-All programs located in the "FCC2_Create_Firm_Chars" folder are related to building the information set of firm characteristics $I_{t,i}$ and the macroeconomic information set relating to the firm characteristics $I_t$
+All programs located in the "FCC2_Create_Firm_Chars" folder are related to building the information set of *firm* characteristics $I_{t,i}$ and the macroeconomic information set relating to the *firm* characteristics $I_t$
 
-- **FCC2_0**: Runs all .do files in the folder "FCC1_Company_List"
-- **FCC2_1**: [brief description]
-- **FCC2_2**: [brief description]
-- **FCC2_3**: [brief description]
-- **FCC2_4**: [brief description]
-- **FCC2_5**: [brief description]
+- **FCC2_0**: Runs all .do files in the folder "FCC2_Create_Firm_Chars"
+- **FCC2_1**: Creates the auxiliary metrics from firm-level data required for constructing the complete firm characteristics later
+- **FCC2_2**: Creates 41 of 46 total firm characteristics, masked and unmasked
+- **FCC2_3**: Creates final 5 firm characteristics, masked and unmasked
+- **FCC2_4**: Combines firm characteristic dataset and performs quantile-normalization (QN) of firm characteristics
+- **FCC2_5**: Creates macroeconomic information set by aggregating firm characteristics and performing stationarity transformations
 
-#### 4.1.3 Cleaning and Creating Bond Characteristics [TBU]
+*Detailed descriptions of the code is left to in-program comments*
 
+#### 4.1.3 Cleaning and Creating Bond Characteristics
 
+All programs located in the "FCC3_Bond_Chars" folder are related to building the information set of *bond* characteristics $I_{t,b}^{(b)}$ and the macroeconomic information set relating to the *bond* characteristics $I_t^{(b)}$
+
+- **FCC3_0**: Runs all .do files in the folder "FCC3_Bond_Chars"
+- **FCC3_1**: Imports and initial cleans underlying bond time series data
+- **FCC3_2**: Further cleaning of bond time series data
+- **FCC3_3**: Adjust bond data for currency differences
+- **FCC3_4**: Create bond characteristics
+- **FCC3_5**: Combines bond characteristics and lags by 9 weeks
+- **FCC3_6**: Performs quantile-normalization (QN) of bond characteristics
+- **FCC3_7**: Creates macroeconomic information set by aggregating bond characteristics and performing stationarity transformations
+
+*Detailed descriptions of the code is left to in-program comments*
 
 [**step-by-step description**]
 
