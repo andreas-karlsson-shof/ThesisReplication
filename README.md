@@ -203,24 +203,24 @@ This section describes which files produced by the Python code corresponds to wh
 
 ### 5.2 Figure Outputs
 
-| Name       | Description                                       |
-|:-----------|:--------------------------------------------------|
-| Figure I   | (Non-empirical output) Created using Powerpoint   |
-| Figure II  | (Non-empirical output) Created using Powerpoint   |
-| Figure III | (Non-empirical output) Created using Powerpoint   |
-| Figure IV  |                                                   |
-| Figure V   |                                                   |
-| Figure VI  |                                                   |
-| Figure VII |                                                   |
-| Figure VII |                                                   |
-| Figure A14 | (Non-empirical output) Panel A and B Created using Powerpoint  |
-| Figure A15 | (Non-empirical output) Panel A and B Created using Powerpoint  |
+| Name            | Description                                           |
+|:----------------|:------------------------------------------------------|
+| **Figure I**    | (**Non-empirical output**) Created using Powerpoint   |
+| **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |
+| **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |
+| **Figure IV**   |                                                       |
+| **Figure V**    |                                                       |
+| **Figure VI**   |                                                       |
+| **Figure VII**  |                                                       |
+| **Figure VIII** |                                                       |
+| **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
+| **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 
 ### 5.3 Algorithm Outputs
 
-| Name           | Description                                |
-|:---------------|:-------------------------------------------|
-| Algorithm 1    | (Non-empirical output) Created using LaTeX |
-| Algorithm 2    | (Non-empirical output) Created using LaTeX |
+| Name               | Description                                |
+|:-------------------|:-------------------------------------------|
+| **Algorithm 1**    | (**Non-empirical output**) Created using LaTeX |
+| **Algorithm 2**    | (**Non-empirical output**) Created using LaTeX |
 
 ***Fin!***
