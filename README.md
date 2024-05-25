@@ -258,10 +258,10 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A8**   | (**Non-empirical output**) Created using LaTeX           |              |
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
 | **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
-| **Table A11**  | (**Non-empirical output**) Created using LaTeX           |  6           |
-| **Table A12**  | See validation sections of code (python code sections 4.6 and 6) for empirical results of validation procedure, created using LaTeX |              |
+| **Table A11**  | (**Non-empirical output**) Created using LaTeX           |              |
+| **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 4.6 and 6             |
 | **Table A13**  | EN_ensemble_tab.tex                                      |              |
-| **Table A14**  | See validation sections of code (python code section 10) for empirical results of validation procedure, created using LaTeX |              |
+| **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10             |
 | **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX |
 | **Table A16**  | FF3_beta_pricing_vRep.tex                                |              |
 | **Table A17**  | FF5_beta_pricing_vRep.tex                                |              |
