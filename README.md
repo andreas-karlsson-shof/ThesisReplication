@@ -174,6 +174,11 @@ After the user changes the project directory path to the correct local path, run
 
 The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks. [**continue**]
 
+- **Section 1: Reproducibility, Delimitation and Paper Colors**:
+- **Section 2: Python Preliminaries and Packages**:
+- **Section 3: Import Data**:
+- **Section 4: Model Building**: 
+
 ## 5. Where to find paper outputs
 
 This section describes which files produced by the Python code corresponds to which output in the final paper. *All* output figures are stored as .pdf files in subfolders within the "Output/Results" folder. Likewise, *all* output tables are stored as LaTeX files (.tex) in subfolders within the "Output/Results" folder. Therefore, I am detailing here the filenames of each .pdf and .tex files that correspond to each Figure and Table in the paper here. The user can then find where in the code this file is created, and the procedure going into producing these outputs.
