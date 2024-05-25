@@ -172,63 +172,7 @@ The Python code is stored in a notebook format (.ipynb) for easier user understa
 
 After the user changes the project directory path to the correct local path, run the code from top to bottom to replicate the results. All paper outputs will be stored in the "Output/Results" folder locally. Therefore, full replicability also requires write permissions from local. 
 
-The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[**step-by-step description**]
-
-To replicate the tables and figures used in the assignment. The aforementioned modules needs to be used. Furthermore, the two underlying data files: 
-
-- dataset.xls
-- dividend_data.xls
-
-needs to be in *the same folder* as the jupyter notebook. In the first cell in *section 3*, specify the current working directory (*cwd*) where all replication files (including the notebook) are located. The *dataset.xls* contains the trading day prices of the FEXD dividend futures on the Eurostoxx 50 DVP. The file *dividend_data.xls* contains the Eurostoxx 50 DVP. 
-
-To run the code as intended, please make sure that all the modules in *section 2* are installed before importing them. Ideally, use the same versions of each module as we did. Furthermore, pay attention to *section 3: Data Importation*. In order to import the data as intended, find the working directory of all replication files and change the directory to that folder in the following line:
-
-<img width="474" alt="Screenshot 2023-03-19 at 17 19 16" src="https://user-images.githubusercontent.com/123584534/226189518-cb964f6e-df43-456e-bd1a-235aabf8c4d4.png">
-
-Do *not* change the filename or sheet-name variables in the cell.
-
-To replicate all figures and tables used in the paper, take note of the only cell in *section 1: Model Specification*. It is in this cell where you can change between the model specifications used. As outlined in the paper, we consider 3 models: 
-
-1. BHK: $e_t^{(2)}$ and $e_t^{(5)}$
-2. SML: $e_t^{(1)}$, $e_t^{(5)}$ and $e_t^{(10)}$
-3. S2: $e_t^{(1)}$ and $e_t^{(2)}$
-
-To implement the BHK model, simply uncomment the 'VARS' variable where we indicate that the BHK specification is, and then run every cell in the notebook from start to end. Note that it may take some seconds for some of the cell to execute, depending on GPU.
-
-<img width="296" alt="bhk_spec" src="https://user-images.githubusercontent.com/123584534/226125909-62f7ec69-46e8-4c65-8df2-960efaf1cf3b.png">
-
-Similarly, to implement the SML model, *reset the kernel* and simply uncomment the 'VARS' variable where we indicate that the SML specification is and run every cell again.
-
-<img width="286" alt="sml_spec" src="https://user-images.githubusercontent.com/123584534/226125910-a3184ce7-7965-456e-b3e6-e782f1ee2c6d.png">
-
-Finally, to implement the S2 model, *reset the kernel* and simply uncomment the 'VARS' variable where we indicate that the S2 specification is and run every cell again.
-
-<img width="299" alt="s2_spec" src="https://user-images.githubusercontent.com/123584534/226126010-f3a4b5c9-827c-4c96-a8af-aaa81f294d17.png">
+The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks. [**continue**]
 
 ## 5. Code outputs to paper outputs
 
