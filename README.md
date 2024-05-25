@@ -189,17 +189,17 @@ This section describes which files produced by the Python code corresponds to wh
 
 ### 5.1 Table Outputs
 
-| Name       | Description        |
-|:-----------|:-------------------|
-| Table I    |                    |
-| Table II   |                    |
-| Table III  |                    |
-| Table A7   | (Non-empirical output) Parts 1-3 Created using LaTeX |
-| Table A8   | (Non-empirical output) Created using LaTeX           |
-| Table A9   | (Non-empirical output) Parts 1-2 Created using LaTeX |
-| Table A10  | (Non-empirical output) Parts 1-2 Created using LaTeX |
-| Table A11  | (Non-empirical output) Created using LaTeX           |
-| Table A20  | (Non-empirical output) Created using LaTeX           |
+| Name           | Description        |
+|:---------------|:-------------------|
+| **Table I**    |                    |
+| **Table II**   |                    |
+| **Table III**  |                    |
+| **Table A7**   | (*Non-empirical output*) Parts 1-3 Created using LaTeX |
+| **Table A8**   | (*Non-empirical output*) Created using LaTeX           |
+| **Table A9**   | (*Non-empirical output*) Parts 1-2 Created using LaTeX |
+| **Table A10**  | (*Non-empirical output*) Parts 1-2 Created using LaTeX |
+| **Table A11**  | (*Non-empirical output*) Created using LaTeX           |
+| **Table A20**  | (*Non-empirical output*) Created using LaTeX           |
 
 ### 5.2 Figure Outputs
 
