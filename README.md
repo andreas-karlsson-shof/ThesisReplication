@@ -169,7 +169,7 @@ The Python code is stored in a notebook format (.ipynb) for easier user understa
 
 After the user changes the project directory path to the correct local path, run the code from top to bottom to replicate the results. All paper outputs will be stored in the "Output/Results" folder locally. Therefore, full replicability also requires write permissions from local. 
 
-The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks. [**continue**]
+The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks:
 
 - **Section 1: Reproducibility, Delimitation and Paper Colors**:
     - (1.1) Creates seed-functionality for reproducible machine learning estimations.
@@ -256,6 +256,26 @@ The code has [**insert number of sections in python code here**] sections of cod
 - **Section 17: Fitted GAN Macroeconomic Hidden States**:
     - (17.1) Extract and format hidden state variables
     - (17.2) Plot GAN hidden states as predicted by LSTM model (within PK network)
+- **Section 18: Elastic Net Estimation**:
+    - (18.1) Create characteristic portfolios $\Tilde{F}_{t+1}$
+    - (18.2) Create Sharpe ratio metric for LARS-EN estimation
+    - (18.3) First step LARS-EN fit: validation procedure
+    - (18.4) Extract optimal EN hyperparameters
+    - (18.5) Second step LARS-EN fit: ensemble fit
+    - (18.6) Calculate final ensemble estimates and Sharpe ratios
+    - (18.7) Elastic net regularization analysis
+- **Section 19: Elastic Net Beta estimation**:
+    - (19.1) Project $R_{t+1}^{e}F_{t+1}$ onto information set $I_{t,i}$
+    - (19.2) Residualization
+    - (19.3) Calculate TS-R2
+    - (19.4) Calculate CS-R2
+- **Section 20: Elastic Net Beta Scaling**:
+    - (20.1) L1-normalize PK weights
+    - (20.2) Scale betas according to $\beta_t'\omega_t = 1$
+- **Section 21: Elastic Net Variable Importance Analysis**:
+    - (21.1) Create inputs for saliency analysis
+    - (21.2) Plot variable importance
+- **Section 22: 
 
 ## 5. Where to find paper outputs
 
@@ -283,7 +303,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
 | **Table A11**  | (**Non-empirical output**) Created using LaTeX           |              |
 | **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 4.6 and 6             |
-| **Table A13**  | EN_ensemble_tab.tex                                      |              |
+| **Table A13**  | EN_ensemble_tab_vRep.tex                                 | 18.5 - 18.6  |
 | **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10             |
 | **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX |
 | **Table A16**  | FF3_beta_pricing_vRep.tex                                |              |
@@ -300,18 +320,18 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |               |
-| **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf | 13.4-14.5, and [add FFN and EN secs] |
-| **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_v2.pdf | 14.2 and [add FFN and EN secs]             |
+| **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train_vRep.pdf, EN_Beta_rep_Valid_vRep.pdf, EN_Beta_rep_Test_vRep.pdf | 13.4-13.5, 24.2-24.3 and [add FFN secs] |
+| **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_vRep.pdf | 14.2, 21.2 and [add FFN secs]             |
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|              |
 | **Figure VIII** | **Panel A**: VI_AJ_Disjoint_permanent.pdf <br> **Panel B**: VI_AJ_Disjoint_transitory.pdf <br> **Panel C**: VI_AJ_Disjoint_Full.pdf |              |
-| **Figure IX**   | **(a), (b), (c)**: EN_SUV_interact_Lturnover_v2.pdf, EN_SUV_interact_CF_v2.pdf, EN_SUV_interact_LME_v2.pdf <br> **(d), (e), (f)**: EN_Lturnover_interact_CF_v2.pdf, EN_Lturnover_interact_LME_v2.pdf, EN_CF_interact_LME_v2.pdf |              |
+| **Figure IX**   | **(a), (b), (c)**: EN_SUV_interact_Lturnover_v2.pdf, EN_SUV_interact_CF_v2.pdf, EN_SUV_interact_LME_v2.pdf <br> **(d), (e), (f)**: EN_Lturnover_interact_CF_v2.pdf, EN_Lturnover_interact_LME_v2.pdf, EN_CF_interact_LME_v2.pdf | 22             |
 | **Figure X**    | **(a), (b), (c)**: GAN_PM_interact_SUV_vRep.pdf, GAN_PM_interact_NOA_vRep.pdf, GAN_PM_interact_AC_vRep.pdf <br> **(d), (e), (f)**: GAN_SUV_interact_NOA_vRep.pdf, GAN_SUV_interact_AC_vRep.pdf, GAN_NOA_interact_AC_vRep.pdf    | 15             |
 | **Figure XI**   | **(a), (b), (c)**: FFN_AT_A2ME_heatmap_v2.pdf, FFN_AT_LME_heatmap_v2.pdf, FFN_AT_Q_heatmap_v2.pdf <br> **(d), (e), (f)**: FFN_A2ME_LME_heatmap_v2.pdf, FFN_A2ME_Q_heatmap_v2.pdf, FFN_LME_Q_heatmap_v2.pdf |              |
 | **Figure XII**  | **(a), (b), (c)**: AJ_Phi_GAN_PROF_NOA_heatmap_vRep.pdf, AJ_Phi_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Phi_GAN_PROF_OA_heatmap_vRep.pdf <br>  **(d), (e), (f)**: AJ_Phi_GAN_Lturnover_E2P_heatmap_vRep.pdf, AJ_Phi_GAN_NOA_OA_heatmap_vRep.pdf, AJ_Phi_GAN_SUV_E2P_heatmap_vRep.pdf |              |
 | **Figure A1**   | **(a), (b), (c)**: AJ_PK_comps_train_vRep.pdf, AJ_PK_comps_valid_vRep.pdf, AJ_PK_comps_test_vRep.pdf |              |
 | **Figure A2**   | GAN_Beta_spread.pdf                                   | 13.3-13.4    |
 | **Figure A3**   | FFN_Beta_spread_v240327.pdf                           |              |
-| **Figure A4**   | EN_Beta_spread.pdf                                    |              |
+| **Figure A4**   | EN_Beta_spread_vRep.pdf                               | 24.2-24.3    |
 | **Figure A5**   | **Model 1-5**: HS_vReplication_1.pdf, HS_vReplication_2.pdf, HS_vReplication_3.pdf, HS_vReplication_4.pdf, HS_vReplication_5.pdf           | 17             |
 | **Figure A6**   | **Model 1-5**: AJ_HS_1_vLoaded.pdf, AJ_HS_2_vLoaded.pdf, AJ_HS_3_vLoaded.pdf, AJ_HS_4_vLoaded.pdf, AJ_HS_5_vLoaded.pdf                     |               |
 | **Figure A7**   | **Model 1-5**: AJ_Phi_HS_1_vLoaded.pdf, AJ_Phi_HS_2_vLoaded.pdf, AJ_Phi_HS_3_vLoaded.pdf, AJ_Phi_HS_4_vLoaded.pdf, AJ_Phi_HS_5_vLoaded.pdf |               |
@@ -332,8 +352,8 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A22**  |  **Panel A** (left to right): /AJ_Disjoint_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ_Disjoint_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, t/AJ_Disjoint_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
 | **Figure A23**  |  **Panel A** (left to right): /AJ/Train_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ/Valid_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ/Test_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
 | **Figure A24**  |  **Panel A** Train_FFN_iters_ensemble_v240327.pdf <br> **Panel B** Valid_FFN_iters_ensemble_v240327.pdf <br> **Panel C** <br> Test_FFN_iters_ensemble_v240327.pdf |              |
-| **Figure A25**  | SR_HyperParams_v3.pdf                                 |              |
-| **Figure A26**  |  **Panel A**: Coef_by_alpha_v2.pdf <br> **Panel B**: Coef_by_lambda_v2.pdf |              |
+| **Figure A25**  | SR_HyperParams_vReplication.pdf  | 18.3-18.4             |
+| **Figure A26**  |  **Panel A**: Coef_by_alpha_vRep.pdf <br> **Panel B**: Coef_by_lambda_vRep.pdf | 18.7           |
 | **Figure A27**  |  Xi_valid_iters_v3.pdf                                |              |
 | **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf | 11.2 and [add AJ-Beta sec] |
 | **Figure A29**  |  **Panel A** (left to right): Train_AJ_Phi_Beta_Iters.pdf, Train_AJ_Disjoint_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_AJ_Phi_Beta_Iters.pdf, Valid_AJ_Disjoint_Beta_Iters.pdf <br> **Panel C** (left to right): Test_AJ_Phi_Beta_Iters.pdf, Test_AJ_Disjoint_Beta_Iters.pdf |              |
