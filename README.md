@@ -257,7 +257,7 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (17.1) Extract and format hidden state variables
     - (17.2) Plot GAN hidden states as predicted by LSTM model (within PK network)
 - **Section 18: Elastic Net Estimation**:
-    - (18.1) Create characteristic portfolios $\Tilde{F}_{t+1}$
+    - (18.1) Create EN-specific characteristic portfolios
     - (18.2) Create Sharpe ratio metric for LARS-EN estimation
     - (18.3) First step LARS-EN fit: validation procedure
     - (18.4) Extract optimal EN hyperparameters
