@@ -207,7 +207,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |
 | **Figure IV**   | **Panel A (left to right)**: PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B (left to right)**: AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |
-| **Figure V**    |                                                       |
+| **Figure V**    | **Panel A (left to right)** GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B (left to right)** FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C (left to right)** EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf |
 | **Figure VI**   |                                                       |
 | **Figure VII**  |                                                       |
 | **Figure VIII** |                                                       |
