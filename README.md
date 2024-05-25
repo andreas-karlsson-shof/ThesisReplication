@@ -275,7 +275,57 @@ The code has [**insert number of sections in python code here**] sections of cod
 - **Section 21: Elastic Net Variable Importance Analysis**:
     - (21.1) Create inputs for saliency analysis
     - (21.2) Plot variable importance
-- **Section 22: 
+- **Section 22: Elastic Net Linear Interaction Plot**:
+    - (22.1) Creates inputs and auxiliary functions for interaction plot
+    - (22.2) Plots linear interactions for the elastic net model
+- **Section 23: Elastic Net Heatmap Plots**:
+    - (23.1) Creates auxiliary objects and functions for heatmap
+    - (23.2) Plot EN heatmap
+- **Section 24: Beta Spreads and Beta Representation for EN**:
+    - (24.1) Decile sort loadings
+    - (24.2) Create plotting functions
+    - (24.3) Plot beta spreads and beta representation
+- **Section 25: Build Feedforward Network Model (FFN)**:
+    - (25.1) FFN architecture functionality
+    - (25.2) FFN in-training Sharpe metrics
+    - (25.3) FFN ensemble functionality
+    - (25.4) FFN validation procedure
+    - (25.5) Fit validated FFN ensemble
+    - (25.6) Plot FFN Sharpe performance by epoch
+- **Section 26: FFN Asset Pricing Performance**:
+    - (26.1) FFN Sharpe ratios
+    - (26.2) Scale FFN PK weights and loadings
+    - (26.3) Residualize returns
+    - (26.4) TS-R2
+    - (26.5) CS-R2
+- **Section 27: FFN Beta Spread and Beta Representation**:
+    - (27.1) Decile sort loadings
+    - (27.2) Create plotting functions
+    - (27.3) Plot beta spreads and beta representation
+- **Section 28: FFN Variable Importance Analysis**:
+    - (28.1) Estimate variable importance for FFN ensemble
+    - (28.2) Plot variable importance for FFN
+- **Section 29: FFN Linear Interactions**:
+    - (29.1) Create inputs and auxiliary functions for linear interactions
+    - (29.2) Plot linear interactions
+- **Section 30: FFN Heatmap Plots**:
+    - (30.1) Create inputs and auxiliary functions for heatmap
+    - (30.2) Plot heatmap
+- **Section 31: Fama-French GMM Procedure**:
+    - (31.1) Create new characteristic dataset starting in 1999 (for June 1999 characteristic values in particular)
+    - (31.2) Sort firms by characteristics in June on annual basis
+    - (31.3) Build Fama-French quantile portfolios of characteristics
+    - (31.4) Create Fama-French quantile group weights (value-weighted) and returns
+    - (31.5) Create Fama-French Factor returns, Standalone
+    - (31.6) Create Market Factor
+    - (31.7) Combine Fama-French Factors
+    - (31.8) Fama-French GMM estimation
+    - (31.9) Extract Fama-French PK coefficients and FF-SDF return
+- **Section 32: CAPM Pricing Tests**:
+    - (32.1)
+
+
+
 
 ## 5. Where to find paper outputs
 
@@ -304,8 +354,8 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A11**  | (**Non-empirical output**) Created using LaTeX           |              |
 | **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 6, 18.3-18.4, 25.4 |
 | **Table A13**  | EN_ensemble_tab_vRep.tex                                 | 18.5 - 18.6  |
-| **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10             |
-| **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX |
+| **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10  |
+| **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX | 31.8 |
 | **Table A16**  | FF3_beta_pricing_vRep.tex                                |              |
 | **Table A17**  | FF5_beta_pricing_vRep.tex                                |              |
 | **Table A18**  | FF3_AJ_beta_pricing_vRep.tex                             |              |
