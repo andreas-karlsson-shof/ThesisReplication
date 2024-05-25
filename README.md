@@ -176,12 +176,12 @@ The code has [**insert number of sections in python code here**] sections of cod
 
 - **Section 1: Reproducibility, Delimitation and Paper Colors**:
     - (1.1) Creates seed-functionality for reproducible machine learning estimations.
-    - (1.2) Defines all relevant folder paths and the dates delimiting the training-validation-test split used.
-    - (1.3) creates firm characteristic category labels and defines the primary colors (hexidecimal) for figure outputs.
-    - (1.4) Selects study period and select parameters: e.g. LSTM lookback and number of moment conditions for the GAN-type models. 
-- **Section 2: Python Preliminaries and Packages**:
-- **Section 3: Import Data**:
-- **Section 4: Model Building**: 
+    - (1.2) Specifies all relevant folder paths and the dates delimiting the training-validation-test split used.
+    - (1.3) Creates firm characteristic category labels and defines the primary colors (hexidecimal) for figure outputs.
+    - (1.4) Selects study period and specifies select parameters: e.g. LSTM lookback period and number of moment conditions for the GAN-type models. 
+- **Section 2: Python Preliminaries and Packages**: [TBU]
+- **Section 3: Import Data**: [TBU]
+- **Section 4: Model Building**: [TBU]
 
 ## 5. Where to find paper outputs
 
