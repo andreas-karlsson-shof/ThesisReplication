@@ -211,8 +211,11 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |
 | **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_v240327.pdf, FFN_Beta_rep_Valid_v240327.pdf, FFN_Beta_rep_Test_v240327.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train.pdf, EN_Beta_rep_Valid.pdf, EN_Beta_rep_Test.pdf |
 | **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_v240328.pdf <br> **Panel C**: VariableImportance_firmchars_EN_v2.pdf |
-| **Figure VII**  |                                                       |
+| **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|
 | **Figure VIII** |                                                       |
+| **Figure IX**   |                                                       |
+| **Figure X**    |                                                       |
+| **Figure XI**   |                                                       |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 
