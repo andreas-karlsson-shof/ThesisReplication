@@ -321,8 +321,35 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (31.7) Combine Fama-French Factors
     - (31.8) Fama-French GMM estimation
     - (31.9) Extract Fama-French PK coefficients and FF-SDF return
-- **Section 32: CAPM Pricing Tests**:
-    - (32.1)
+- **Section 32: Factor Model Pricing Tests** (baseline models: GAN, FFN, EN):
+    - (32.1) Create beta-portfolios (model-generated signals)
+    - (32.2) Create Factor model regression functions
+    - (32.3) CAPM Regressions
+    - (32.4) FF3 Regressions
+    - (32.5) FF5 Regressions
+    - (32.6) Regression p-values
+    - (32.7) GRS test
+    - (32.8) Preformatting LaTeX table
+    - (32.9) Export factor pricing tests LaTeX tables
+- **Section 33: Pricing Characteristically Managed Portfolios** (baseline models: GAN, FFN, EN):
+    - (33.1) Combine loadings and characteristic datasets
+    - (33.2) Create characteristic sorts
+    - (33.3) R-squared function on characteristic managed portfolios
+    - (33.4) Pricing 460 Characteristically managed portfolios (GAN)
+    - (33.5) Pricing 460 Characteristically managed portfolios (FFN)
+    - (33.6) Pricing 460 Characteristically managed portfolios (EN)
+    - (33.7) Pre-format LaTeX table
+    - (33.8) Export pricing table for 460 characteristically managed portfolios
+- **Section 34: Characteristic Pricing by GAN most important characteristics**:
+    - (34.1) Create inputs and labellings
+    - (34.2) Pre-format LaTeX table
+    - (34.3) Export pricing table for most important characteristically managed portfolios (according to GAN)
+- **Section 35: Characteristic Pricing by FFN most important characteristics**:
+    - (35.1) Pre-format LaTeX table
+    - (35.2) Export pricing table for most important characteristically managed portfolios (according to FFN)
+- **Section 36: Characteristic Pricing by EN most important characteristics**:
+    - (36.1) Pre-format LaTeX table
+    - (36.2) Export pricing table for most important characteristically managed portfolios (according to EN)
 
 
 
@@ -336,14 +363,14 @@ This section describes which files produced by the Python code corresponds to wh
 | Name           | Description                                              | Code Section |
 |:---------------|:---------------------------------------------------------|:-------------|
 | **Table I**    | main_table_v240425.tex                                   |              |
-| **Table II**   | beta_pricing_vRep.tex                                    |              |
+| **Table II**   | beta_pricing_vRep.tex                                    | 32.9         |
 | **Table III**  | AJ_beta_pricing_vRep.tex                                 |              |
-| **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      |              |
-| **Table V**    | CharsDecileTable_GAN_vRep.tex                            |              |
+| **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      | 33           |
+| **Table V**    | CharsDecileTable_GAN_vRep.tex                            | 34           |
 | **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 |              |
 | **Table A1**   | M_correl_input3.tex                                      |              |
-| **Table A2**   | CharsDecileTable_FFN_vRep                                |              |
-| **Table A3**   | CharsDecileTable_EN_vRep                                 |              |
+| **Table A2**   | CharsDecileTable_FFN_vRep                                | 35           |
+| **Table A3**   | CharsDecileTable_EN_vRep                                 | 36           |
 | **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          |              |
 | **Table A5**   | AJ_Phi_CharsDecileTable_GAN_v240425                      |              |
 | **Table A6**   | AJ_Disjoint_CharsDecileTable_GAN_v240425                 |              |
@@ -356,8 +383,8 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A13**  | EN_ensemble_tab_vRep.tex                                 | 18.5 - 18.6  |
 | **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10  |
 | **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX | 31.8 |
-| **Table A16**  | FF3_beta_pricing_vRep.tex                                |              |
-| **Table A17**  | FF5_beta_pricing_vRep.tex                                |              |
+| **Table A16**  | FF3_beta_pricing_vRep.tex                                | 32.9         |
+| **Table A17**  | FF5_beta_pricing_vRep.tex                                | 32.9         |
 | **Table A18**  | FF3_AJ_beta_pricing_vRep.tex                             |              |
 | **Table A19**  | FF5_AJ_beta_pricing_vRep.tex                             |              |
 | **Table A20**  | (**Non-empirical output**) Created using LaTeX           |              |
