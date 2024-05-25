@@ -1,10 +1,11 @@
-# Empirical Pricing Kernel Models via Machine Learning
+# Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning
 
-## Thesis for M.A. in Banking and Finance (MBF)
-## University of St. Gallen
+## Double Degree Thesis for M.A. in Banking and Finance (MBF) and MSc. in Finance (MFIN)
+## University of St. Gallen (HSG) and Stockholm School of Economics (SSE)
 ## Andreas Karlsson
-### Supervisor:    David Preinerstorfer, Ph.D.
-### Co-supervisor: Dr. Zeno Adams
+### Supervisor (SSE):    Prof. Gualtiero Azzalini
+### Supervisor (HSG):    Prof. David Preinerstorfer
+### Co-supervisor (HSG): Dr. Zeno Adams
 
 STOP // AK: CONTINUE HERE
 ## Abstract [TBU]
