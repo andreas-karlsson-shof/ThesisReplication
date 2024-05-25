@@ -7,8 +7,9 @@
 ### Supervisor (HSG):    Prof. David Preinerstorfer
 ### Co-supervisor (HSG): Dr. Zeno Adams
 
-STOP // AK: CONTINUE HERE
 ## Abstract [TBU]
+
+Description of replication files for the thesis "Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning".
 
 [Write intro]
 
