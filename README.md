@@ -195,12 +195,12 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      |
 | **Table V**    | CharsDecileTable_GAN_vRep.tex                            |
 | **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 |
-| **Table A1**   |                                                          |
-| **Table A2**   |                                                          |
-| **Table A3**   |                                                          |
-| **Table A4**   |                                                          |
-| **Table A5**   |                                                          |
-| **Table A6**   |                                                          |
+| **Table A1**   | M_correl_input3.tex                                      |
+| **Table A2**   | CharsDecileTable_FFN_vRep                                |
+| **Table A3**   | CharsDecileTable_EN_vRep                                 |
+| **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          |
+| **Table A5**   | AJ_Phi_CharsDecileTable_GAN_v240425                      |
+| **Table A6**   | AJ_Disjoint_CharsDecileTable_GAN_v240425                 |
 | **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX |
 | **Table A8**   | (**Non-empirical output**) Created using LaTeX           |
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |
@@ -232,22 +232,22 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure X**    | **(a), (b), (c)**: GAN_PM_interact_SUV_vRep.pdf, GAN_PM_interact_NOA_vRep.pdf, GAN_PM_interact_AC_vRep.pdf <br> **(d), (e), (f)**: GAN_SUV_interact_NOA_vRep.pdf, GAN_SUV_interact_AC_vRep.pdf, GAN_NOA_interact_AC_vRep.pdf    |
 | **Figure XI**   | **(a), (b), (c)**: FFN_AT_A2ME_heatmap_v2.pdf, FFN_AT_LME_heatmap_v2.pdf, FFN_AT_Q_heatmap_v2.pdf <br> **(d), (e), (f)**: FFN_A2ME_LME_heatmap_v2.pdf, FFN_A2ME_Q_heatmap_v2.pdf, FFN_LME_Q_heatmap_v2.pdf |
 | **Figure XII**  | **(a), (b), (c)**: AJ_Phi_GAN_PROF_NOA_heatmap_vRep.pdf, AJ_Phi_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Phi_GAN_PROF_OA_heatmap_vRep.pdf <br>  **(d), (e), (f)**: AJ_Phi_GAN_Lturnover_E2P_heatmap_vRep.pdf, AJ_Phi_GAN_NOA_OA_heatmap_vRep.pdf, AJ_Phi_GAN_SUV_E2P_heatmap_vRep.pdf |
-| **Figure A1**   |                                                       |
-| **Figure A2**   |                                                       |
-| **Figure A3**   |                                                       |
-| **Figure A4**   |                                                       |
-| **Figure A5**   |                                                       |
-| **Figure A6**   |                                                       |
-| **Figure A7**   |                                                       |
-| **Figure A8**   |                                                       |
-| **Figure A9**   |                                                       |
-| **Figure A10**  |                                                       |
-| **Figure A11**  |                                                       |
-| **Figure A12**  |                                                       |
-| **Figure A13**  |                                                       |
+| **Figure A1**   | **(a), (b), (c)**: AJ_PK_comps_train_vRep.pdf, AJ_PK_comps_valid_vRep.pdf, AJ_PK_comps_test_vRep.pdf |
+| **Figure A2**   | GAN_Beta_spread.pdf                                   |
+| **Figure A3**   | FFN_Beta_spread_v240327.pdf                           |
+| **Figure A4**   | EN_Beta_spread.pdf                                    |
+| **Figure A5**   | **Model 1-5**: HS_vReplication_1.pdf, HS_vReplication_2.pdf, HS_vReplication_3.pdf, HS_vReplication_4.pdf, HS_vReplication_5.pdf           |
+| **Figure A6**   | **Model 1-5**: AJ_HS_1_vLoaded.pdf, AJ_HS_2_vLoaded.pdf, AJ_HS_3_vLoaded.pdf, AJ_HS_4_vLoaded.pdf, AJ_HS_5_vLoaded.pdf                     | 
+| **Figure A7**   | **Model 1-5**: AJ_Phi_HS_1_vLoaded.pdf, AJ_Phi_HS_2_vLoaded.pdf, AJ_Phi_HS_3_vLoaded.pdf, AJ_Phi_HS_4_vLoaded.pdf, AJ_Phi_HS_5_vLoaded.pdf | 
+| **Figure A8**   | **Model 1-5**: AJ_Disjoint_HS_1_vLoaded.pdf, AJ_Disjoint_HS_2_vLoaded.pdf, AJ_Disjoint_HS_3_vLoaded.pdf, AJ_Disjoint_HS_4_vLoaded.pdf, AJ_Disjoint_HS_5_vLoaded.pdf | 
+| **Figure A9**   | **(a), (b), (c)**: FFN_AT_interact_A2ME.pdf, FFN_AT_interact_LME.pdf, FFN_AT_interact_Q.pdf <br>  **(d), (e), (f)**: FFN_A2ME_interact_LME.pdf, FFN_A2ME_interact_Q.pdf, FFN_LME_interact_Q.pdf |
+| **Figure A10**  | **(a), (b), (c)**: SUV_Lturnover_heatmap_v2.pdf, SUV_CF_heatmap_v2.pdf, SUV_LME_heatmap_v2.pdf <br> **(d), (e), (f)**: Lturnover_CF_heatmap_v2.pdf, /Lturnover_LME_heatmap_v2.pdf, CF_LME_heatmap_v2.pdf |
+| **Figure A11**  | **(a), (b), (c)**: GAN_PM_SUV_heatmap_vReplication.pdf, GAN_PM_NOA_heatmap_vReplication.pdf, GAN_PM_AC_heatmap_vReplication.pdf <br> **(d), (e), (f)**: GAN_SUV_NOA_heatmap_vReplication.pdf, GAN_SUV_AC_heatmap_vReplication.pdf, GAN_NOA_AC_heatmap_vReplication.pdf |
+| **Figure A12**  | **(a), (b), (c)**: AJ_GAN_r12_2_LME_heatmap_vRep.pdf, AJ_GAN_LME_SUV_heatmap_vRep.pdf, AJ_GAN_r12_2_ATO_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_GAN_LME_Lturnover_heatmap_vRep.pdf, AJ_GAN_LME_ATO_heatmap_vRep.pdf, AJ_GAN_SUV_Lturnover_heatmap_vRep.pdf |
+| **Figure A13**  | **(a), (b), (c)**: AJ_Disjoint_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Disjoint_GAN_ST_BV_Bond_r12_3_heatmap_vRep.pdf, AJ_Disjoint_GAN_Lturnover_Resid_Var_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_Disjoint_GAN_ST_BV_LT_Kurt_heatmap_vRep.pdf, AJ_Disjoint_GAN_SUV_Resid_Var_heatmap_vRep.pdf, AJ_Disjoint_GAN_Bond_r12_3_LT_Kurt_heatmap_vrep.pdf |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |
-| **Figure A16**  |                                                       |
+| **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf |
 | **Figure A17**  |                                                       |
 | **Figure A18**  |                                                       |
 | **Figure A19**  |                                                       |
