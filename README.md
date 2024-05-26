@@ -167,7 +167,7 @@ The Python code is stored in a notebook format (.ipynb) for easier user understa
 
 After the user changes the project directory path to the correct local path, run the code from top to bottom to replicate the results. All paper outputs will be stored in the "Output/Results" folder locally. Therefore, full replicability also requires write permissions from local. 
 
-The code has [**insert number of sections in python code here**] sections of code in total, each performing different tasks:
+The code has 80 sections of code in total, each with their own subsections performing different tasks:
 
 - **Section 1: Reproducibility, Delimitation and Paper Colors**:
     - (1.1) Creates seed-functionality for reproducible machine learning estimations.
@@ -429,7 +429,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      | 33           |
 | **Table V**    | CharsDecileTable_GAN_vRep.tex                            | 34           |
 | **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 | 75.6         |
-| **Table A1**   | M_correl_input3.tex                                      |              |
+| **Table A1**   | M_correl_input3.tex                                      | 79           |
 | **Table A2**   | CharsDecileTable_FFN_vRep                                | 35           |
 | **Table A3**   | CharsDecileTable_EN_vRep                                 | 36           |
 | **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          | 75.7         |
