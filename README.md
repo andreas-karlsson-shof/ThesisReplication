@@ -75,7 +75,7 @@ The following specifications (version) were used for this project:
 
 ## 3. Overview of Input Files
 
-This section gives an overview the input data used for the study. All empirical data was retrieved from Refinitiv Eikon datastream and was stored to Excel. In an intermediate step, the downloaded data is reformatted to a sheet "Output_Values" to be compatible with importation from STATA. Therefore, the "Ouput_Values" folders in the Excel files are ultimately what is imported into STATA for the data cleaning procedure. 
+This section gives an overview the input data used for the study. All empirical data was retrieved from Refinitiv Eikon datastream and was stored as Excel files. All used Input files are located in the "Input" folder in the project. In an intermediate step, the downloaded data is reformatted to a sheet "Output_Values" to be compatible with importation from STATA. Therefore, the "Ouput_Values" folders in the Excel files are ultimately what is imported into STATA for the data cleaning procedure. 
 
 #### 3.1 Raw Input Data [TBU]
 
