@@ -423,18 +423,18 @@ This section describes which files produced by the Python code corresponds to wh
 
 | Name           | Description                                              | Code Section |
 |:---------------|:---------------------------------------------------------|:-------------|
-| **Table I**    | main_table_v240425.tex                                   | 38 and [add AJ sec] |
+| **Table I**    | main_table_vRepl.tex                                     | 38 and 76    |
 | **Table II**   | beta_pricing_vRep.tex                                    | 32.9         |
 | **Table III**  | AJ_beta_pricing_vRep.tex                                 | 74.9         |
 | **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      | 33           |
 | **Table V**    | CharsDecileTable_GAN_vRep.tex                            | 34           |
-| **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 |              |
+| **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 | 75.6         |
 | **Table A1**   | M_correl_input3.tex                                      |              |
 | **Table A2**   | CharsDecileTable_FFN_vRep                                | 35           |
 | **Table A3**   | CharsDecileTable_EN_vRep                                 | 36           |
-| **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          |              |
-| **Table A5**   | AJ_Phi_CharsDecileTable_GAN_v240425                      |              |
-| **Table A6**   | AJ_Disjoint_CharsDecileTable_GAN_v240425                 |              |
+| **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          | 75.7         |
+| **Table A5**   | AJ_Phi_CharsDecileTable_GAN_v240425                      | 75.8         |
+| **Table A6**   | AJ_Disjoint_CharsDecileTable_GAN_v240425                 | 75.9         |
 | **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX | n/m          |
 | **Table A8**   | (**Non-empirical output**) Created using LaTeX           | n/m          |
 | **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m          |
