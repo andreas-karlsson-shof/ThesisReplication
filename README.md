@@ -425,7 +425,7 @@ This section describes which files produced by the Python code corresponds to wh
 |:---------------|:---------------------------------------------------------|:-------------|
 | **Table I**    | main_table_v240425.tex                                   | 38 and [add AJ sec] |
 | **Table II**   | beta_pricing_vRep.tex                                    | 32.9         |
-| **Table III**  | AJ_beta_pricing_vRep.tex                                 |              |
+| **Table III**  | AJ_beta_pricing_vRep.tex                                 | 74.9         |
 | **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      | 33           |
 | **Table V**    | CharsDecileTable_GAN_vRep.tex                            | 34           |
 | **Table VI**   | AJ_CharsOverallRsquaredTable_v240425.tex                 |              |
@@ -435,20 +435,20 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          |              |
 | **Table A5**   | AJ_Phi_CharsDecileTable_GAN_v240425                      |              |
 | **Table A6**   | AJ_Disjoint_CharsDecileTable_GAN_v240425                 |              |
-| **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX | n/m             |
-| **Table A8**   | (**Non-empirical output**) Created using LaTeX           | n/m             |
-| **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m             |
-| **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m             |
-| **Table A11**  | (**Non-empirical output**) Created using LaTeX           | n/m             |
+| **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX | n/m          |
+| **Table A8**   | (**Non-empirical output**) Created using LaTeX           | n/m          |
+| **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m          |
+| **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m          |
+| **Table A11**  | (**Non-empirical output**) Created using LaTeX           | n/m          |
 | **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 6, 18.3-18.4, 25.4 |
 | **Table A13**  | EN_ensemble_tab_vRep.tex                                 | 18.5 - 18.6  |
 | **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10  |
 | **Table A15**  | See Fama-French and GMM estimation for empirical results in the table, created using LaTeX | 31.8 |
 | **Table A16**  | FF3_beta_pricing_vRep.tex                                | 32.9         |
 | **Table A17**  | FF5_beta_pricing_vRep.tex                                | 32.9         |
-| **Table A18**  | FF3_AJ_beta_pricing_vRep.tex                             |              |
-| **Table A19**  | FF5_AJ_beta_pricing_vRep.tex                             |              |
-| **Table A20**  | (**Non-empirical output**) Created using LaTeX           | n/m             |
+| **Table A18**  | FF3_AJ_beta_pricing_vRep.tex                             | 74.9         |
+| **Table A19**  | FF5_AJ_beta_pricing_vRep.tex                             | 74.9         |
+| **Table A20**  | (**Non-empirical output**) Created using LaTeX           | n/m          |
 
 ### 5.2 Figure Outputs
 
