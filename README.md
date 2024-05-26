@@ -352,6 +352,34 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (36.2) Export pricing table for most important characteristically managed portfolios (according to EN)
 - **Section 37: Stocks per week plot**:
     - (37.0) Plot the number of stocks in the sample by week
+- **Section 38: St. Gallen Main Table**:
+    - (38.1) Format table data
+    - (38.2) Export LaTeX table
+- **Section 39: Baseline Models Factor Time Series**:
+    - (39.1) Variance scaling of return factors
+    - (39.2) Calculate cumulative excess returns of factors
+    - (39.3) Plot cumulative returns of ML models
+- **Section 40: Bond Macroeconomic Data**:
+    - (40.1) Import and format STATA bond data
+    - (40.2) Tensorize bond macroeconomic information set
+- **Section 41: Bond Return Mask**:
+    - (41.1) Import and format STATA bond mask
+    - (41.2) Number of bond indices per week plot
+    - (41.3) Pad number of bonds to match stock dimension
+- **Section 42: Bond Return Data**:
+    - (42.1) Import and format STATA bond return data
+    - (42.2) Pad number of bonds to match stock dimension
+- **Section 43: Bond Characteristics**:
+    - (43.1) Import and format STATA bond characteristic data
+    - (43.2) Pad number of bonds to match stock dimension
+- **Section 44: Alvarez-Jermann Model Building**:
+    - (44.1) AJ GAN type LSTM building functionality
+    - (44.2) AJ GAN type Network building functionality
+    - (44.3) Component Pricing Kernel Specification Functionality
+    - (44.4) Combined Pricing Kernel Network Specification Functionality
+- **Section 45: Create AJ labels**:
+    - (45.0) creates structure of true labels for extended GAN models
+- **Section 46: 
 
 
 
@@ -364,7 +392,7 @@ This section describes which files produced by the Python code corresponds to wh
 
 | Name           | Description                                              | Code Section |
 |:---------------|:---------------------------------------------------------|:-------------|
-| **Table I**    | main_table_v240425.tex                                   |              |
+| **Table I**    | main_table_v240425.tex                                   | 38 and [add AJ sec] |
 | **Table II**   | beta_pricing_vRep.tex                                    | 32.9         |
 | **Table III**  | AJ_beta_pricing_vRep.tex                                 |              |
 | **Table IV**   | CharsOverallRsquaredTable_v2Rep.tex                      | 33           |
@@ -398,7 +426,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure I**    | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |              |
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |              |
-| **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf |               |
+| **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf | 39 and [add AJ secs] |
 | **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_vReplication.pdf, FFN_Beta_rep_Valid_vReplication.pdf, FFN_Beta_rep_Test_vReplication.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train_vRep.pdf, EN_Beta_rep_Valid_vRep.pdf, EN_Beta_rep_Test_vRep.pdf | 13.4-13.5, 24.2-24.3 and 27.2-27.3 |
 | **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_vReplication.pdf <br> **Panel C**: VariableImportance_firmchars_EN_vRep.pdf | 14.2, 21.2 and 28.2 |
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf|              |
@@ -422,7 +450,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A13**  | **(a), (b), (c)**: AJ_Disjoint_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Disjoint_GAN_ST_BV_Bond_r12_3_heatmap_vRep.pdf, AJ_Disjoint_GAN_Lturnover_Resid_Var_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_Disjoint_GAN_ST_BV_LT_Kurt_heatmap_vRep.pdf, AJ_Disjoint_GAN_SUV_Resid_Var_heatmap_vRep.pdf, AJ_Disjoint_GAN_Bond_r12_3_LT_Kurt_heatmap_vrep.pdf |              |
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
-| **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf | 37 and [add numbonds]           |
+| **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf | 37 and 41.2  |
 | **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf | 8.5 [add AJ-GAN sec.]           |
 | **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf |              |
 | **Figure A19**  |  **Panel A**: Train_AJ_Phi_Phi_decomp_iters.pdf <br>  **Panel B**: Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C**: Test_AJ_Phi_Phi_decomp_iters.pdf |              |
