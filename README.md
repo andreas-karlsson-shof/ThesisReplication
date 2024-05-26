@@ -457,7 +457,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure I**    | (**Non-empirical output**) Created using Powerpoint   | n/m             |
 | **Figure II**   | (**Non-empirical output**) Created using Powerpoint   | n/m             |
 | **Figure III**  | (**Non-empirical output**) Created using Powerpoint   | n/m             |
-| **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf | 39 and [add AJ secs] |
+| **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf | 39 and 77 |
 | **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_vReplication.pdf, FFN_Beta_rep_Valid_vReplication.pdf, FFN_Beta_rep_Test_vReplication.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train_vRep.pdf, EN_Beta_rep_Valid_vRep.pdf, EN_Beta_rep_Test_vRep.pdf | 13.4-13.5, 24.2-24.3 and 27.2-27.3 |
 | **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_vReplication.pdf <br> **Panel C**: VariableImportance_firmchars_EN_vRep.pdf | 14.2, 21.2 and 28.2 |
 | **Figure VII**  | **Panel A** (left to right): VI_AJ_permanent.pdf, VI_AJ_Phi_permanent.pdf <br> **Panel B** (left to right): VI_AJ_transitory.pdf, VI_AJ_Phi_transitory.pdf <br> **Panel C** (left to right): VI_AJ_Full.pdf, VI_AJ_Phi_Full.pdf| 57             |
@@ -466,7 +466,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure X**    | **(a), (b), (c)**: GAN_PM_interact_SUV_vRep.pdf, GAN_PM_interact_NOA_vRep.pdf, GAN_PM_interact_AC_vRep.pdf <br> **(d), (e), (f)**: GAN_SUV_interact_NOA_vRep.pdf, GAN_SUV_interact_AC_vRep.pdf, GAN_NOA_interact_AC_vRep.pdf    | 15             |
 | **Figure XI**   | **(a), (b), (c)**: FFN_AT_A2ME_heatmap_vR.pdf, FFN_AT_LME_heatmap_vR.pdf, FFN_AT_Q_heatmap_vR.pdf <br> **(d), (e), (f)**: FFN_A2ME_LME_heatmap_vR.pdf, FFN_A2ME_Q_heatmap_vR.pdf, FFN_LME_Q_heatmap_vR.pdf | 30             |
 | **Figure XII**  | **(a), (b), (c)**: AJ_Phi_GAN_PROF_NOA_heatmap_vRep.pdf, AJ_Phi_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Phi_GAN_PROF_OA_heatmap_vRep.pdf <br>  **(d), (e), (f)**: AJ_Phi_GAN_Lturnover_E2P_heatmap_vRep.pdf, AJ_Phi_GAN_NOA_OA_heatmap_vRep.pdf, AJ_Phi_GAN_SUV_E2P_heatmap_vRep.pdf | 58             |
-| **Figure A1**   | **(a), (b), (c)**: AJ_PK_comps_train_vRep.pdf, AJ_PK_comps_valid_vRep.pdf, AJ_PK_comps_test_vRep.pdf |              |
+| **Figure A1**   | **(a), (b), (c)**: AJ_PK_comps_train_vRep.pdf, AJ_PK_comps_valid_vRep.pdf, AJ_PK_comps_test_vRep.pdf | 78             |
 | **Figure A2**   | GAN_Beta_spread.pdf                                   | 13.3-13.4    |
 | **Figure A3**   | FFN_Beta_spread_vReplication.pdf                      | 27.2-27.3    |
 | **Figure A4**   | EN_Beta_spread_vRep.pdf                               | 24.2-24.3    |
