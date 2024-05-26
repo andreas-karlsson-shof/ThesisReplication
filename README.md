@@ -68,7 +68,8 @@ The following specifications (version) were used for this project:
 - import_ipynb (0.1.4)
 - Tensorflow & Keras (2.14.0)
 - seaborn (0.12.2)
-- [need stuff for the plot_model]
+- use latest plot_model and graphviz
+- Additional packages used are shown in code using explicit "import" commands
 
 *NOTE 1: if a package is not installed on the computer, you need to install the module first*. 
 *NOTE 2: it is **very** likely that the python program will not run if the user did not ensure that the plot_model package was properly installed. In particular, ensure that a compatible version of **graphviz** is installed along with plot_model*
