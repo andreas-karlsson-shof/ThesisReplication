@@ -73,7 +73,9 @@ The following specifications (version) were used for this project:
 *NOTE 1: if a package is not installed on the computer, you need to install the module first*. 
 *NOTE 2: it is **very** likely that the python program will not run if the user did not ensure that the plot_model package was properly installed. In particular, ensure that a compatible version of **graphviz** is installed along with plot_model*
 
-## 3. Overview of Input Files [TBU]
+## 3. Overview of Input Files
+
+This section gives an overview the input data used for the study. All empirical data was retrieved from Refinitiv Eikon datastream and was stored to Excel. In an intermediate step, the downloaded data is reformatted to a sheet "Output_Values" to be compatible with importation from STATA. Therefore, the "Ouput_Values" folders in the Excel files are ultimately what is imported into STATA for the data cleaning procedure. 
 
 #### 3.1 Raw Input Data [TBU]
 
@@ -393,7 +395,7 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (50.1) Create grid
     - (50.2) Validation estimation
     - (50.3) Xi validation plot
-    - (50.4) Build validated AJ-$\Phi$ model
+    - (50.4) Build validated AJ-Phi model
 - **Section 51: Unconditional Fit of Extended GAN models**:
     - (51.1) Fit AJ-$\Phi$
     - (51.2) Fit AJ-GAN
@@ -491,8 +493,8 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A25**  | SR_HyperParams_vReplication.pdf  | 18.3-18.4             |
 | **Figure A26**  |  **Panel A**: Coef_by_alpha_vRep.pdf <br> **Panel B**: Coef_by_lambda_vRep.pdf | 18.7           |
 | **Figure A27**  |  Xi_valid_iters_v3.pdf                                | 50            |
-| **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf | 11.2 and [add AJ-Beta sec] |
-| **Figure A29**  |  **Panel A** (left to right): Train_AJ_Phi_Beta_Iters.pdf, Train_AJ_Disjoint_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_AJ_Phi_Beta_Iters.pdf, Valid_AJ_Disjoint_Beta_Iters.pdf <br> **Panel C** (left to right): Test_AJ_Phi_Beta_Iters.pdf, Test_AJ_Disjoint_Beta_Iters.pdf |              |
+| **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf | 11.2 and 59.4 |
+| **Figure A29**  |  **Panel A** (left to right): Train_AJ_Phi_Beta_Iters.pdf, Train_AJ_Disjoint_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_AJ_Phi_Beta_Iters.pdf, Valid_AJ_Disjoint_Beta_Iters.pdf <br> **Panel C** (left to right): Test_AJ_Phi_Beta_Iters.pdf, Test_AJ_Disjoint_Beta_Iters.pdf | 59.4             |
 
 ### 5.3 Algorithm Outputs
 
