@@ -17,13 +17,9 @@ This README file is separated into 11 sections:
 4. Full paper replication
 5. Where to find paper outputs
 
-## 1. Introduction [TBU]
+## 1. Introduction
 
-Description of replication files for the thesis "Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning".
-
-[Write intro]
-
-
+This files describes the replication files for the thesis "Empirical Pricing Kernel Models and the Permanent-Transitory Decomposition via Machine Learning". Data handling is done in STATA and empirical results are produced in Python. Here I describe the data cleaning process, how to replicate the paper output, and I detail specifically where each paper output is produced in the Python code.
 
 ## 2. Preliminaries
 
@@ -201,8 +197,7 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (5.3) Creates in-training Sharpe Ratio metric
     - (5.4) Creates custom callbacks to save model, real-time plot of performance, etc.
 - **Section 6: PK Network Validation procedure**:
-    - (6.1) Train 16 PK Networks for 256 epoch unconditional fit of Algorithm (1)
-    - (6.2) Evaluate validation set Sharpe ratio of 16 GAN models
+    - (6.0) Train 16 PK Networks for 256 epoch unconditional fit of Algorithm (1)
 - **Section 7: Unconditional Fit of validated GAN ensemble**:
     - (7.1) Creates model configurations according to validated model
     - (7.2) Creates 5 validated LSTM and FFN models for PK networks inside ensemble
@@ -379,7 +374,41 @@ The code has [**insert number of sections in python code here**] sections of cod
     - (44.4) Combined Pricing Kernel Network Specification Functionality
 - **Section 45: Create AJ labels**:
     - (45.0) creates structure of true labels for extended GAN models
-- **Section 46: 
+- **Section 46: AJ COND Network Building Functionality**:
+    - (46.1) COND LSTM functionality
+    - (46.2) COND FFN functionality
+    - (46.3) COND ensemble
+- **Section 47: AJ Loss Function and Metrics**:
+    - (47.1) AJ Loss functionality
+    - (47.2) AJ Metric functionality
+    - (47.3) Extract Pricing Kernel time series functionality
+- **Section 48: Check Training Functionality**:
+    - (48.1) Check checkpoint callbacks
+    - (48.2) Check compilation
+- **Section 49: Extended GAN Model Ensemble Functionality**:
+    - (49.1) Config functionality
+    - (49.2) AJ-GAN-type ensemble functionality
+    - (49.3) AJ-Bond-type ensemble functionality
+- **Section 50: $\xi$ Validation Procedure**:
+    - (50.1) Create grid
+    - (50.2) Validation estimation
+    - (50.3) Xi validation plot
+    - (50.4) Build validated AJ-$\Phi$ model
+- **Section 51: Unconditional Fit of Extended GAN models**:
+    - (51.1) Fit AJ-$\Phi$
+    - (51.2) Fit AJ-GAN
+    - (51.3) Fit AJ-Bond
+- **Section 52: Extended GAN Models Conditional Fit**:
+    - (52.1) GAN estimation accessories
+    - (52.2) Conditional fit of AJ-Phi
+    - (52.3) Conditional fit of AJ-GAN
+    - (52.4) Conditional fit of AJ-Bond
+- **Section 53: Extended GAN performance by epoch plots**:
+    - (53.1) Auxiliary functions
+    - (53.2) Extract history of metrics during training
+    - (53.3) Create plotting functions
+    - (53.4) Format history logger data
+    - (53.5) Extended GAN performance by epoch plots
 
 
 
@@ -451,12 +480,12 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  | n/m             |
 | **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  | n/m             |
 | **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf | 37 and 41.2  |
-| **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf | 8.5 [add AJ-GAN sec.]           |
-| **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf |              |
-| **Figure A19**  |  **Panel A**: Train_AJ_Phi_Phi_decomp_iters.pdf <br>  **Panel B**: Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C**: Test_AJ_Phi_Phi_decomp_iters.pdf |              |
-| **Figure A20**  |  **Panel A** (left to right): Train_AJ_GAN_iters_Correlation.pdf, Train_AJ_Phi_Phi_decomp_iters.pdf <br> Valid_AJ_GAN_iters_Correlation.pdf, Valid_AJ_Phi_Phi_decomp_iters.pdf **Panel B** (left to right):  <br> **Panel C** (left to right): Test_AJ_GAN_iters_Correlation.pdf, Test_AJ_Phi_Phi_decomp_iters.pdf |              |
-| **Figure A21**  |  **Panel A** (left to right): /AJ_Phi_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Phi_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right):  /AJ_Phi_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
-| **Figure A22**  |  **Panel A** (left to right): /AJ_Disjoint_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ_Disjoint_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, t/AJ_Disjoint_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
+| **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf | 8.5 and 53.5 |
+| **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf | 53.5             |
+| **Figure A19**  |  **Panel A**: Train_AJ_Phi_Phi_decomp_iters.pdf <br>  **Panel B**: Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C**: Test_AJ_Phi_Phi_decomp_iters.pdf | 53.5             |
+| **Figure A20**  |  **Panel A** (left to right): Train_AJ_GAN_iters_Correlation.pdf, Train_AJ_Phi_Phi_decomp_iters.pdf <br> Valid_AJ_GAN_iters_Correlation.pdf, Valid_AJ_Phi_Phi_decomp_iters.pdf **Panel B** (left to right):  <br> **Panel C** (left to right): Test_AJ_GAN_iters_Correlation.pdf, Test_AJ_Phi_Phi_decomp_iters.pdf | 53.5             |
+| **Figure A21**  |  **Panel A** (left to right): /AJ_Phi_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Phi_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right):  /AJ_Phi_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, /AJ_Phi_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf | 53.5             |
+| **Figure A22**  |  **Panel A** (left to right): /AJ_Disjoint_Var_Decomp_Input/Train_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_GAN_iters_M-Correlation.pdf, /AJ_Disjoint_Var_Decomp_Input/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ_Disjoint_Var_Decomp_Input/Test_AJ_GAN_iters_M-Correlation.pdf, t/AJ_Disjoint_Var_Decomp_Input/Test_AJ_Phi_Phi_decomp_iters.pdf | 53.5             |
 | **Figure A23**  |  **Panel A** (left to right): /AJ/Train_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Train_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel B** (left to right): /AJ/Valid_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Valid_AJ_Phi_Phi_decomp_iters.pdf <br> **Panel C** (left to right): /AJ/Test_AJ_Phi_Phi_decomp_iters.pdf, /AJ_Phi/Test_AJ_Phi_Phi_decomp_iters.pdf |              |
 | **Figure A24**  |  **Panel A** Train_FFN_iters_ensemble_vReplication.pdf <br> **Panel B** Valid_FFN_iters_ensemble_vReplication.pdf <br> **Panel C** <br> Test_FFN_iters_ensemble_vReplication.pdf | 25.6            |
 | **Figure A25**  | SR_HyperParams_vReplication.pdf  | 18.3-18.4             |
