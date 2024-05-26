@@ -404,11 +404,11 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A4**   | AJ_CharsDecileTable_GAN_v240425                          |              |
 | **Table A5**   | AJ_Phi_CharsDecileTable_GAN_v240425                      |              |
 | **Table A6**   | AJ_Disjoint_CharsDecileTable_GAN_v240425                 |              |
-| **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX |              |
-| **Table A8**   | (**Non-empirical output**) Created using LaTeX           |              |
-| **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
-| **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX |              |
-| **Table A11**  | (**Non-empirical output**) Created using LaTeX           |              |
+| **Table A7**   | (**Non-empirical output**) Parts 1-3 Created using LaTeX | n/m             |
+| **Table A8**   | (**Non-empirical output**) Created using LaTeX           | n/m             |
+| **Table A9**   | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m             |
+| **Table A10**  | (**Non-empirical output**) Parts 1-2 Created using LaTeX | n/m             |
+| **Table A11**  | (**Non-empirical output**) Created using LaTeX           | n/m             |
 | **Table A12**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 6, 18.3-18.4, 25.4 |
 | **Table A13**  | EN_ensemble_tab_vRep.tex                                 | 18.5 - 18.6  |
 | **Table A14**  | See validation sections of code for empirical results of validation procedure, created using LaTeX | 10  |
@@ -417,15 +417,15 @@ This section describes which files produced by the Python code corresponds to wh
 | **Table A17**  | FF5_beta_pricing_vRep.tex                                | 32.9         |
 | **Table A18**  | FF3_AJ_beta_pricing_vRep.tex                             |              |
 | **Table A19**  | FF5_AJ_beta_pricing_vRep.tex                             |              |
-| **Table A20**  | (**Non-empirical output**) Created using LaTeX           |              |
+| **Table A20**  | (**Non-empirical output**) Created using LaTeX           | n/m             |
 
 ### 5.2 Figure Outputs
 
 | Name            | Description                                           | Code Section |
 |:----------------|:------------------------------------------------------|:-------------|
-| **Figure I**    | (**Non-empirical output**) Created using Powerpoint   |              |
-| **Figure II**   | (**Non-empirical output**) Created using Powerpoint   |              |
-| **Figure III**  | (**Non-empirical output**) Created using Powerpoint   |              |
+| **Figure I**    | (**Non-empirical output**) Created using Powerpoint   | n/m             |
+| **Figure II**   | (**Non-empirical output**) Created using Powerpoint   | n/m             |
+| **Figure III**  | (**Non-empirical output**) Created using Powerpoint   | n/m             |
 | **Figure IV**   | **Panel A** (left to right): PK_time_series_train_vRep.pdf, PK_time_series_valid_vRep.pdf, PK_time_series_test_vRep.pdf. <br> **Panel B** (left to right): AJ_PK_time_series_train_vRep.pdf, AJ_PK_time_series_valid_vRep.pdf, AJ_PK_time_series_test_vRep.pdf | 39 and [add AJ secs] |
 | **Figure V**    | **Panel A** (left to right): GAN_Beta_rep_Train.pdf, GAN_Beta_rep_Valid.pdf, GAN_Beta_rep_Test.pdf <br> **Panel B** (left to right): FFN_Beta_rep_Train_vReplication.pdf, FFN_Beta_rep_Valid_vReplication.pdf, FFN_Beta_rep_Test_vReplication.pdf <br> **Panel C** (left to right): EN_Beta_rep_Train_vRep.pdf, EN_Beta_rep_Valid_vRep.pdf, EN_Beta_rep_Test_vRep.pdf | 13.4-13.5, 24.2-24.3 and 27.2-27.3 |
 | **Figure VI**   | **Panel A**: VariableImportance_firmchars_GAN_vReplication.pdf <br> **Panel B**: VariableImportance_firmchars_FFN_vReplication.pdf <br> **Panel C**: VariableImportance_firmchars_EN_vRep.pdf | 14.2, 21.2 and 28.2 |
@@ -448,8 +448,8 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A11**  | **(a), (b), (c)**: GAN_PM_SUV_heatmap_vReplication.pdf, GAN_PM_NOA_heatmap_vReplication.pdf, GAN_PM_AC_heatmap_vReplication.pdf <br> **(d), (e), (f)**: GAN_SUV_NOA_heatmap_vReplication.pdf, GAN_SUV_AC_heatmap_vReplication.pdf, GAN_NOA_AC_heatmap_vReplication.pdf | 16             |
 | **Figure A12**  | **(a), (b), (c)**: AJ_GAN_r12_2_LME_heatmap_vRep.pdf, AJ_GAN_LME_SUV_heatmap_vRep.pdf, AJ_GAN_r12_2_ATO_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_GAN_LME_Lturnover_heatmap_vRep.pdf, AJ_GAN_LME_ATO_heatmap_vRep.pdf, AJ_GAN_SUV_Lturnover_heatmap_vRep.pdf |              |
 | **Figure A13**  | **(a), (b), (c)**: AJ_Disjoint_GAN_Lturnover_SUV_heatmap_vRep.pdf, AJ_Disjoint_GAN_ST_BV_Bond_r12_3_heatmap_vRep.pdf, AJ_Disjoint_GAN_Lturnover_Resid_Var_heatmap_vRep.pdf <br> **(d), (e), (f)**: AJ_Disjoint_GAN_ST_BV_LT_Kurt_heatmap_vRep.pdf, AJ_Disjoint_GAN_SUV_Resid_Var_heatmap_vRep.pdf, AJ_Disjoint_GAN_Bond_r12_3_LT_Kurt_heatmap_vrep.pdf |              |
-| **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
-| **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  |              |
+| **Figure A14**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  | n/m             |
+| **Figure A15**  | (**Non-empirical output**) Panel A and B Created using Powerpoint  | n/m             |
 | **Figure A16**  |  **Panel A**: Num_stocks_plot_v2.pdf <br>  **Panel B**: Num_bonds_plot_vRep.pdf | 37 and 41.2  |
 | **Figure A17**  |  **Panel A** (left to right): Train_GAN_iters_ensemble_new.pdf, /AJ_GAN/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): Valid_GAN_iters_ensemble_new.pdf, /AJ_GAN/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): Test_GAN_iters_ensemble_new_TEST.pdf, /AJ_GAN/Test_AJ_GAN_iters_Sharpe.pdf | 8.5 [add AJ-GAN sec.]           |
 | **Figure A18**  |  **Panel A** (left to right): /AJ_Phi/Train_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Train_AJ_GAN_iters_Sharpe.pdf <br> **Panel B** (left to right): /AJ_Phi/Valid_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Valid_AJ_GAN_iters_Sharpe.pdf <br> **Panel C** (left to right): /AJ_Phi/Test_AJ_GAN_iters_Sharpe.pdf, /AJ_Disjoint/Test_AJ_GAN_iters_Sharpe.pdf |              |
@@ -461,7 +461,7 @@ This section describes which files produced by the Python code corresponds to wh
 | **Figure A24**  |  **Panel A** Train_FFN_iters_ensemble_vReplication.pdf <br> **Panel B** Valid_FFN_iters_ensemble_vReplication.pdf <br> **Panel C** <br> Test_FFN_iters_ensemble_vReplication.pdf | 25.6            |
 | **Figure A25**  | SR_HyperParams_vReplication.pdf  | 18.3-18.4             |
 | **Figure A26**  |  **Panel A**: Coef_by_alpha_vRep.pdf <br> **Panel B**: Coef_by_lambda_vRep.pdf | 18.7           |
-| **Figure A27**  |  Xi_valid_iters_v3.pdf                                |              |
+| **Figure A27**  |  Xi_valid_iters_v3.pdf                                | 50            |
 | **Figure A28**  |  **Panel A** (left to right): Train_Beta_Iters.pdf, Train_AJ_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_Beta_Iters.pdf, Valid_AJ_Beta_Iters.pdf <br> **Panel C** (left to right): Test_Beta_Iters.pdf, Test_AJ_Beta_Iters.pdf | 11.2 and [add AJ-Beta sec] |
 | **Figure A29**  |  **Panel A** (left to right): Train_AJ_Phi_Beta_Iters.pdf, Train_AJ_Disjoint_Beta_Iters.pdf <br> **Panel B** (left to right): Valid_AJ_Phi_Beta_Iters.pdf, Valid_AJ_Disjoint_Beta_Iters.pdf <br> **Panel C** (left to right): Test_AJ_Phi_Beta_Iters.pdf, Test_AJ_Disjoint_Beta_Iters.pdf |              |
 
