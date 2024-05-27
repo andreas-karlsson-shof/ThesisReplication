@@ -168,7 +168,7 @@ The Python code is stored in a notebook format (.ipynb) for easier user understa
 
 After the user changes the project directory path to the correct local path, run the code from top to bottom to replicate the results. All paper outputs will be stored in the "Output/Results" folder locally. Therefore, full replicability also requires write permissions from local. 
 
-The code has 80 sections of code in total, each with their own subsections performing different tasks:
+The code has 70 sections of code in total, each with their own subsections performing different tasks:
 
 - **Section 1: Reproducibility, Delimitation and Paper Colors**:
     - (1.1) Creates seed-functionality for reproducible machine learning estimations.
@@ -412,8 +412,84 @@ The code has 80 sections of code in total, each with their own subsections perfo
     - (53.3) Create plotting functions
     - (53.4) Format history logger data
     - (53.5) Extended GAN performance by epoch plots
-
-
+- **Section 54: Extended GAN Models Sharpe Ratios**:
+    - (54.1) AJ-GAN Sharpe
+    - (54.2) AJ-Phi Sharpe
+    - (54.3) AJ-Bond Sharpe
+- **Section 55: Pricing Kernel Component Model Extraction**:
+    - (55.1) Extract LSTM Models (transfer learning)
+    - (55.2) Decompose Pricing Kernel Networks (transfer learning)
+- **Section 56: Extended GAN Models Macroeconomic Hidden States**:
+    - (56.1) AJ-Bond Hidden States
+    - (56.2) AJ-Phi Hidden States
+    - (56.3) AJ-GAN Hidden States
+- **Section 57: Extended GAN Models Variable Importance**:
+    - (57.1) AJ-Bond Variable Importance
+    - (57.2) AJ-GAN and AJ-Phi Variable Importance
+    - (57.3) Format VI
+    - (57.4) Permanent Component VI Plots
+    - (57.5) Transitory Component VI Plots
+    - (57.6) Combined Pricing Kernel VI Plots
+    - (57.7) Extract most important characteristics
+- **Section 58: Extended GAN Model Heatmap Plots**:
+    - (58.1) Format inputs
+    - (58.2) Predictions of extended GAN models
+    - (58.3) Create plotting functions
+    - (58.4) Create heatmap plots
+- **Section 59: Loadings for Extended GAN Models**:
+    - (59.1) Create labels
+    - (59.2) Beta network architecture functionality
+    - (59.3) Hidden states and SDF weights for beta net
+    - (59.4) Fit Beta Networks of Extended GAN Models
+- **Section 60: Extended GAN Residualization and Explained Variation Metrics**:
+    - (60.1) Produce final loadings
+    - (60.2) Residualization
+    - (60.3) AJ-GAN Explained Variation Metrics
+    - (60.4) AJ-Phi Explained Variation Metrics
+    - (60.5) AJ-Bond Explained Variation Metrics
+- **Section 61: Extended GAN Beta Scaling**:
+    - (61.1) AJ-GAN
+    - (61.2) AJ-Phi
+    - (61.3) AJ-Bond
+- **Section 62: Extended GAN Beta Decile Sorting**:
+    - (62.1) Build auxiliary functions
+    - (62.2) Build Beta Sorting functions
+    - (62.3) Beta Scaling Procedure
+- **Section 63: Extended GAN Beta Spread and Beta Representation Plots**:
+    - (63.1) Build Plotting Functions
+    - (63.2) Beta Spread and Beta Representation Plots (Combined Kernel)
+    - (63.3) Beta Spread and Beta Representation Plots (Permanent Kernel)
+    - (63.4) Beta Spread and Beta Representation Plots (Transitory Kernel)
+- **Section 64: Extended GAN Factor Model Pricing Tests**:
+    - (64.1) Variance Scaling Functionality
+    - (64.2) Regression Functionality
+    - (64.3) CAPM Regressions
+    - (64.4) FF3 Regressions
+    - (64.5) FF5 Regressions
+    - (64.6) P-values
+    - (64.7) GRS Test
+    - (64.8) Format LaTeX tables
+    - (64.9) Export LaTeX tables
+- **Section 65: Extended GAN Characteristic Pricing**:
+    - (65.1) Combined loading and char data
+    - (65.2) Char sorting functionality
+    - (65.3) Char pricing R-squared functionality
+    - (65.4) Char decile portfolio pricing
+    - (65.5) Format LaTeX table
+    - (65.6) Export LaTeX table
+    - (65.7) Char Pricing by AJ-GAN most important chars
+    - (65.8) Char Pricing by AJ-Phi most important chars
+    - (65.9) Char Pricing by AJ-Bond most important chars
+- **Section 66: SSE Main Table**:
+    - (66.1) Format data
+    - (66.2) Export main table
+- **Section 67: SSE Pricing Kernel Time Series**:
+    - (67.0) Plot Empirical Excess Returns of Pricing Kernel Factors
+- **Section 68: Pricing Kernel Component Time Series**
+    - (68.0) Plot Pricing Kernel Component Time Series
+- **Section 69: Pricing Kernel Component Correlation Table**:
+    - (69.0) Create correlation table of SDF components
+- **Section 70: Fin!**
 
 
 ## 5. Where to find paper outputs
