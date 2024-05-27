@@ -78,34 +78,21 @@ The following specifications (version) were used for this project:
 
 This section gives an overview the input data used for the study. All empirical data was retrieved from Refinitiv Eikon datastream and was stored as Excel files. All used Input files are located in the "Input" folder in the project. In an intermediate step, the downloaded data is reformatted to a sheet "Output_Values" to be compatible with importation from STATA. Therefore, the "Ouput_Values" folders in the Excel files are ultimately what is imported into STATA for the data cleaning procedure. 
 
-#### 3.1 Raw Input Data [TBU]
+The raw data within the Input folder are categorized into 11 subfolders:
 
-##### 3.1.1 Firm Accounting Data [TBU]
+- **3.1 BondData**: Nordic bond characteristic and return data 
+- **3.2 Delisted**: Nordic firm-level accounting data and return data of firms
+- **3.3 Documentation**: Auxiliary data (unused)
+- **3.4 DY Delivery**: Divided Yield data of Nordic firms
+- **3.5 FX Link**: link between firm and currency of data
+- **3.6 GP Delivery**: Gross Profit data of Nordic firms
+- **3.7 Macro & FX**: Macroeconomic data and currency data
+- **3.8 OldDelivery**: First data delivery of firm-level data
+- **3.9 OldMissing**: Data delivery of variables that were missing from first data delivery
+- **3.10 Riskfree Rates**: Risk free rate data
+- **3.11 SEQ Delivery**: Shareholders equity data of Nordic firms
 
-##### 3.1.2 Firm Market Data [TBU]
-
-##### 3.1.3 Exchange Rates [TBU]
-
-##### 3.1.4 Interest Rates [TBU]
-
-##### 3.1.5 Other Data [TBU]
-- Time-Series Death
-
-[**brief description**]
-
-#### 3.2 Cleaned Input Data [TBU]
-
-##### 3.2.1 Cleaned Firm Characterstics [TBU]
-
-##### 3.2.2 Cleaned Return Data [TBU]
-
-##### 3.2.3 Cleaned Mask [TBU]
-
-##### 3.2.4 Bond Data [TBU]
-
-[**brief description about importing with Python**]
-
-## 4. Full Paper Replication [TBU]
+## 4. Full Paper Replication
 
 ### 4.1 STATA Data Cleaning Replication
 
